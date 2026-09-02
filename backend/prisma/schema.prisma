@@ -1,0 +1,403 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id           Int               @id @default(autoincrement())
+  email        String            @unique
+  passwordHash String
+  role         String            // "STUDENT", "COUNSELLOR", "ADMIN"
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+
+  studentProfile    StudentProfile?
+  counsellorProfile CounsellorProfile?
+  adminProfile      AdminProfile?
+  sentMessages      Message[]          @relation("SentMessages")
+  receivedMessages  Message[]          @relation("ReceivedMessages")
+  notifications     Notification[]
+}
+
+model StudentProfile {
+  id                    Int                 @id @default(autoincrement())
+  userId                Int                 @unique
+  user                  User                @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name                  String
+  classLevel            String?             // e.g. "Class 12", "Undergraduate"
+  board                 String?             // e.g. "CBSE", "State Board"
+  stream                String?             // e.g. "PCM Stream", "Commerce"
+  branch                String?             // e.g. "Computer Science", "Mechanical"
+  year                  Int?                // e.g. 1, 2, 3 (College year)
+  percentage            Float?
+  cgpa                  Float?
+  subjects              String?             // Comma-separated subjects
+  location              String?
+  onlinePreference      Boolean             @default(true)
+  opportunityPreference String?             // e.g. "Internships, Hackathons"
+  timeAvailability      String?             // e.g. "Part-time", "Weekends"
+  careerInterests       String?             // Comma-separated interest areas
+  careerReadinessScore  Float               @default(0.0)
+  premiumStatus         Boolean             @default(false)
+  currentCareerMatch    String?             // e.g. "Software Engineer"
+  createdAt             DateTime            @default(now())
+  updatedAt             DateTime            @updatedAt
+
+  skills             UserSkill[]
+  savedOpportunities SavedOpportunity[]
+  applications       Application[]
+  roadmaps           Roadmap[]
+  assessments        CareerAssessment[]
+  reviews            Review[]
+  counsellingSessions CounsellingSession[]
+  subscriptions      Subscription[]
+}
+
+model CounsellorProfile {
+  id             Int                     @id @default(autoincrement())
+  userId         Int                     @unique
+  user           User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name           String
+  qualification  String
+  experience     String                  // e.g. "10 years"
+  specialization String                  // e.g. "Engineering & Tech Careers"
+  languages      String                  // e.g. "English, Hindi"
+  rating         Float                   @default(5.0)
+  sessionPrice   Float                   @default(0.0)
+  availability   String?                 // e.g. "Mon-Fri (4PM-8PM)"
+  isVerified     Boolean                 @default(false)
+  createdAt      DateTime                @default(now())
+  updatedAt      DateTime                @updatedAt
+
+  sessions            CounsellingSession[]
+  weeklyAvailability  CounsellorAvailability[]
+  documents           VerificationDocument[]
+  reviews             Review[]
+  reports             CounsellingReport[]
+}
+
+model AdminProfile {
+  id        Int      @id @default(autoincrement())
+  userId    Int      @unique
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Skill {
+  id        Int      @id @default(autoincrement())
+  name      String   @unique
+  category  String   // "Programming", "Data & AI", "Design", etc.
+
+  userSkills        UserSkill[]
+  careerSkills      CareerSkill[]
+  opportunitySkills OpportunitySkill[]
+}
+
+model UserSkill {
+  id               Int            @id @default(autoincrement())
+  studentProfileId Int
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  skillId          Int
+  skill            Skill          @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  proficiency      String         // "BEGINNER", "INTERMEDIATE", "ADVANCED"
+
+  @@unique([studentProfileId, skillId])
+}
+
+model Career {
+  id          Int           @id @default(autoincrement())
+  careerKey   String        @unique // e.g. "software_engineer"
+  title       String
+  description String
+  education   String
+  interests   String        // Comma-separated interests
+  subjects    String        // Comma-separated subjects
+  careerType  String        // e.g. "Tech", "Business"
+
+  careerSkills CareerSkill[]
+  roadmaps     Roadmap[]
+}
+
+model CareerSkill {
+  id         Int    @id @default(autoincrement())
+  careerId   Int
+  career     Career @relation(fields: [careerId], references: [id], onDelete: Cascade)
+  skillId    Int
+  skill      Skill  @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  importance String // "HIGH", "MEDIUM", "LOW"
+
+  @@unique([careerId, skillId])
+}
+
+model Opportunity {
+  id           Int                @id @default(autoincrement())
+  title        String
+  organization String
+  category     String             // "Scholarships", "Internships", etc.
+  description  String
+  education    String             // Minimum education level needed
+  minYear      Int                @default(1)
+  maxYear      Int                @default(5)
+  branch       String             // Branch requirement (e.g., "Computer Science")
+  skills       String             // Comma-separated skill names
+  location     String
+  mode         String             // "ONLINE", "OFFLINE", "HYBRID"
+  deadline     DateTime?
+  prize        String?
+  stipend      String?
+  fee          Float              @default(0.0)
+  url          String
+  source       String
+  lastVerified DateTime
+  status       String             // "ACTIVE", "CLOSING_SOON", "EXPIRED", "UPCOMING"
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+
+  savedBy      SavedOpportunity[]
+  applications Application[]
+  skillsNeeded OpportunitySkill[]
+}
+
+model OpportunitySkill {
+  id            Int         @id @default(autoincrement())
+  opportunityId Int
+  opportunity   Opportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  skillId       Int
+  skill         Skill       @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([opportunityId, skillId])
+}
+
+model SavedOpportunity {
+  id               Int            @id @default(autoincrement())
+  studentProfileId Int
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  opportunityId    Int
+  opportunity      Opportunity    @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  createdAt        DateTime       @default(now())
+
+  @@unique([studentProfileId, opportunityId])
+}
+
+model Application {
+  id               Int            @id @default(autoincrement())
+  studentProfileId Int
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  opportunityId    Int
+  opportunity      Opportunity    @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  status           String         // "SAVED", "PLANNING_TO_APPLY", "APPLIED", "SHORTLISTED", "SELECTED", "REJECTED", "WITHDRAWN"
+  applicationDate  DateTime       @default(now())
+  notes            String?
+  documents        String?        // Comma-separated or JSON URL string
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  @@unique([studentProfileId, opportunityId])
+}
+
+model Course {
+  id        Int    @id @default(autoincrement())
+  title     String
+  provider  String
+  career    String
+  skills    String
+  duration  Int
+  level     String
+}
+
+model Exam {
+  id               Int       @id @default(autoincrement())
+  name             String
+  conductingBody   String
+  eligibility      String
+  education        String
+  branches         String
+  applicationStart DateTime?
+  deadline         DateTime?
+  officialUrl      String
+}
+
+model Scholarship {
+  id          Int       @id @default(autoincrement())
+  name        String
+  provider    String
+  eligibility String
+  education   String
+  category    String
+  amount      String
+  deadline    DateTime?
+  officialUrl String
+}
+
+model Roadmap {
+  id               Int            @id @default(autoincrement())
+  studentProfileId Int
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  title            String
+  careerId         Int?
+  career           Career?        @relation(fields: [careerId], references: [id], onDelete: SetNull)
+  progress         Float          @default(0.0)
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+
+  steps RoadmapStep[]
+}
+
+model RoadmapStep {
+  id            Int       @id @default(autoincrement())
+  roadmapId     Int
+  roadmap       Roadmap   @relation(fields: [roadmapId], references: [id], onDelete: Cascade)
+  title         String
+  order         Int
+  status        String    // "NOT_STARTED", "IN_PROGRESS", "COMPLETED"
+  description   String?
+  targetDate    DateTime?
+  completedDate DateTime?
+}
+
+model CareerAssessment {
+  id               Int            @id @default(autoincrement())
+  studentProfileId Int
+  studentProfile   StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  answers          String         // JSON String of answers
+  createdAt        DateTime       @default(now())
+
+  recommendations CareerRecommendation[]
+}
+
+model CareerRecommendation {
+  id                 Int              @id @default(autoincrement())
+  careerAssessmentId Int
+  careerAssessment   CareerAssessment @relation(fields: [careerAssessmentId], references: [id], onDelete: Cascade)
+  careerId           Int
+  matchScore         Float
+  reasoning          String           // JSON String of { matchingSkills, missingSkills, rationale, nextSteps }
+  createdAt          DateTime         @default(now())
+}
+
+model CounsellingSession {
+  id                  Int               @id @default(autoincrement())
+  studentProfileId    Int
+  studentProfile      StudentProfile    @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  counsellorProfileId Int
+  counsellorProfile   CounsellorProfile @relation(fields: [counsellorProfileId], references: [id], onDelete: Cascade)
+  date                DateTime
+  timeSlot            String            // e.g. "10:00 - 11:00"
+  status              String            // "PENDING", "CONFIRMED", "COMPLETED", "CANCELLED"
+  price               Float
+  paymentStatus       String            @default("PENDING") // "PENDING", "PAID", "REFUNDED"
+  paymentId           String?
+  videoRoomId         String
+  meetingUrl          String?
+  notes               String?
+  createdAt           DateTime          @default(now())
+  updatedAt           DateTime          @updatedAt
+
+  report CounsellingReport?
+}
+
+model CounsellorAvailability {
+  id                  Int               @id @default(autoincrement())
+  counsellorProfileId Int
+  counsellorProfile   CounsellorProfile @relation(fields: [counsellorProfileId], references: [id], onDelete: Cascade)
+  dayOfWeek           Int               // 0=Sunday, 1=Monday, ..., 6=Saturday
+  startTime           String            // "HH:MM"
+  endTime             String            // "HH:MM"
+}
+
+model CounsellingReport {
+  id                   Int                @id @default(autoincrement())
+  counsellingSessionId Int                @unique
+  counsellingSession   CounsellingSession @relation(fields: [counsellingSessionId], references: [id], onDelete: Cascade)
+  counsellorProfileId  Int
+  counsellorProfile    CounsellorProfile  @relation(fields: [counsellorProfileId], references: [id], onDelete: Cascade)
+  studentSituation     String
+  assessment           String
+  recommendedCareer    String
+  recommendedCourse    String
+  recommendedExams     String
+  skillsToDevelop      String
+  actionPlan           String
+  followUpDate         DateTime?
+  createdAt            DateTime           @default(now())
+}
+
+model Subscription {
+  id                   Int            @id @default(autoincrement())
+  studentProfileId     Int
+  studentProfile       StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  plan                 String         // "FREE", "PREMIUM"
+  status               String         // "ACTIVE", "EXPIRED"
+  startDate            DateTime       @default(now())
+  endDate              DateTime?
+  stripeSubscriptionId String?
+  createdAt            DateTime       @default(now())
+
+  payments Payment[]
+}
+
+model Payment {
+  id             Int           @id @default(autoincrement())
+  userId         Int
+  amount         Float
+  status         String        // "PENDING", "SUCCESS", "FAILED"
+  reference      String?       // Payment Gateway Transaction ID
+  paymentMethod  String?       // "CARD", "UPI", "NET_BANKING"
+  purpose        String        // "SUBSCRIPTION", "COUNSELLING"
+  screenshotUrl  String?
+  subscriptionId Int?
+  subscription   Subscription? @relation(fields: [subscriptionId], references: [id], onDelete: SetNull)
+  createdAt      DateTime      @default(now())
+}
+
+model Notification {
+  id        Int      @id @default(autoincrement())
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  title     String
+  message   String
+  type      String   // "OPPORTUNITY", "DEADLINE", "APPOINTMENT", "MILESTONE", "MESSAGE", "SYSTEM"
+  isRead    Boolean  @default(false)
+  channel   String   @default("IN_APP") // "IN_APP", "EMAIL", "PUSH", "BOTH"
+  createdAt DateTime @default(now())
+}
+
+model Message {
+  id         Int      @id @default(autoincrement())
+  senderId   Int
+  sender     User     @relation("SentMessages", fields: [senderId], references: [id], onDelete: Cascade)
+  receiverId Int
+  receiver   User     @relation("ReceivedMessages", fields: [receiverId], references: [id], onDelete: Cascade)
+  content    String
+  isRead     Boolean  @default(false)
+  createdAt  DateTime @default(now())
+}
+
+model Review {
+  id                  Int            @id @default(autoincrement())
+  studentProfileId    Int
+  studentProfile      StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  counsellorProfileId Int
+  counsellorProfile   CounsellorProfile @relation(fields: [counsellorProfileId], references: [id], onDelete: Cascade)
+  rating              Float
+  comment             String?
+  createdAt           DateTime       @default(now())
+}
+
+model VerificationDocument {
+  id                  Int               @id @default(autoincrement())
+  counsellorProfileId Int
+  counsellorProfile   CounsellorProfile @relation(fields: [counsellorProfileId], references: [id], onDelete: Cascade)
+  documentType        String            // "DEGREE", "CERTIFICATE", "EXPERIENCE", "ID_PROOF"
+  documentUrl         String
+  verificationStatus  String            @default("PENDING") // "PENDING", "APPROVED", "REJECTED"
+  verifiedAt          DateTime?
+  notes               String?
+  createdAt           DateTime          @default(now())
+}

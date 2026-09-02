@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+
+# Frontend / build
+.next/
+out/
+dist/
+build/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Python cache
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large datasets
+datasets/
+*.zip
+*.rar
+*.7z
+
+# Database
+*.db
+*.db-journal
