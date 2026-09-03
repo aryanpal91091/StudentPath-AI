@@ -43,8 +43,8 @@ export default function LoginPage() {
       if (user.role === 'STUDENT') router.push('/dashboard');
       else if (user.role === 'COUNSELLOR') router.push('/counsellor/dashboard');
       else router.push('/admin');
-    } catch {
-      setError('Login failed');
+    } catch (err: any) {
+      setError(err?.response?.data?.error || err?.message || 'Login failed');
     } finally {
       setLoading(false);
     }
