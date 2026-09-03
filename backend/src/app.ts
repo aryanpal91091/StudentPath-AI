@@ -51,8 +51,9 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
 });
 
 if (process.env.NODE_ENV !== 'test') {
-  app.listen(PORT, () => {
-    console.log(`Express server running on port ${PORT}`);
+  const port = Number(PORT);
+  app.listen(port, '0.0.0.0', () => {
+    console.log(`Express server running on 0.0.0.0:${port}`);
   });
 }
 
