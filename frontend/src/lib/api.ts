@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const rawApiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const cleanApiUrl = rawApiUrl.replace(/\/+$/, '');
+const BASE_URL = cleanApiUrl.endsWith('/api') ? cleanApiUrl : `${cleanApiUrl}/api`;
 
 const getToken = (): string | null => {
   if (typeof window === 'undefined') return null;
