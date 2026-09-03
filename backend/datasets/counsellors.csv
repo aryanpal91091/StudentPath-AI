@@ -1,0 +1,101 @@
+id,name,qualification,experience,specialization,languages,rating,session_price,availability,is_verified
+1,Dr. Ramesh Sharma A,"Ph.D in Education, Ex-UPSC Board Member",8 years,Engineering & Tech Careers,"English, Hindi, Marathi",5.0,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+2,Anjali Mehta B,"LL.M, Career Counsellor",19 years,Engineering & Tech Careers,"English, Hindi",4.2,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+3,Dr. Ramesh Sharma C,"M.Tech, Ph.D (IIT Bombay)",20 years,Competitive Exams Prep,"English, Hindi, Gujarati",4.6,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+4,Meera Deshmukh D,"M.Tech, Ph.D (IIT Bombay)",13 years,Management & Business Careers,"English, Hindi, Gujarati",4.9,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+5,Dr. Amit Patel E,"M.Tech, Ph.D (IIT Bombay)",13 years,Design & Creative Fields,"English, Hindi, Marathi",4.4,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+6,Priya Nair F,"M.Tech, Ph.D (IIT Bombay)",11 years,Competitive Exams Prep,"English, Hindi",4.4,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+7,Prof. Sunita Krishnan G,"M.Des (NID), UX Specialist",16 years,Medical & Pharmacy Careers,"English, Telugu",4.7,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+8,Rajesh Iyer H,"Ph.D in Education, Ex-UPSC Board Member",16 years,Competitive Exams Prep,"English, Tamil",4.2,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+9,Prof. Sunita Krishnan I,"M.A. Psychology, Counsellor Cert",11 years,Civil Services & Govt Jobs,"English, Telugu",4.4,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+10,Rajesh Iyer J,"LL.M, Career Counsellor",13 years,Higher Studies Abroad,"English, Tamil",4.9,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+11,Prof. Sunita Krishnan K,"LL.M, Career Counsellor",13 years,Civil Services & Govt Jobs,"English, Hindi, Marathi",4.8,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+12,Dr. Amit Patel L,"M.A. Psychology, Counsellor Cert",12 years,Management & Business Careers,"English, Tamil",4.5,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+13,Srinivas Rao M,"M.A. Psychology, Counsellor Cert",22 years,Law & Humanities,"English, Hindi",4.3,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+14,Sanjay Gupta N,MBA (IIM Ahmedabad),25 years,Higher Studies Abroad,"English, Hindi",4.6,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+15,Anjali Mehta O,"Ph.D in Education, Ex-UPSC Board Member",10 years,Management & Business Careers,"English, Hindi, Gujarati",4.9,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+16,Dr. Amit Patel P,"M.Tech, Ph.D (IIT Bombay)",14 years,Engineering & Tech Careers,"English, Telugu",4.8,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+17,Dr. Amit Patel Q,"M.Des (NID), UX Specialist",9 years,Civil Services & Govt Jobs,"English, Hindi, Marathi",4.5,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+18,Dr. Ramesh Sharma R,"Ph.D in Education, Ex-UPSC Board Member",19 years,Competitive Exams Prep,"English, Telugu",4.9,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+19,Anjali Mehta S,"Ph.D in Education, Ex-UPSC Board Member",14 years,Engineering & Tech Careers,"English, Hindi, Bengali",4.7,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+20,Vikram Singh T,MBA (IIM Ahmedabad),21 years,Engineering & Tech Careers,"English, Telugu",4.4,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+21,Srinivas Rao U,"LL.M, Career Counsellor",25 years,Law & Humanities,"English, Hindi, Bengali",4.9,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+22,Srinivas Rao V,"LL.M, Career Counsellor",7 years,Law & Humanities,"English, Hindi, Bengali",4.7,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+23,Prof. Sunita Krishnan W,MBA (IIM Ahmedabad),25 years,Higher Studies Abroad,"English, Tamil",4.8,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+24,Rajesh Iyer X,"LL.M, Career Counsellor",18 years,Design & Creative Fields,"English, Tamil",4.3,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+25,Prof. Sunita Krishnan Y,"Ph.D in Education, Ex-UPSC Board Member",11 years,Management & Business Careers,"English, Hindi, Bengali",4.6,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+26,Srinivas Rao Z,MBA (IIM Ahmedabad),25 years,Higher Studies Abroad,"English, Hindi",4.8,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+27,Priya Nair A,MBA (IIM Ahmedabad),24 years,Management & Business Careers,"English, Hindi, Bengali",5.0,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+28,Sanjay Gupta B,"M.A. Psychology, Counsellor Cert",22 years,Engineering & Tech Careers,"English, Telugu",4.4,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+29,Rajesh Iyer C,MBA (IIM Ahmedabad),20 years,Law & Humanities,"English, Hindi, Gujarati",4.8,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+30,Meera Deshmukh D,"M.A. Psychology, Counsellor Cert",21 years,Engineering & Tech Careers,"English, Tamil",4.4,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+31,Priya Nair E,MBA (IIM Ahmedabad),15 years,Design & Creative Fields,"English, Hindi",4.6,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+32,Meera Deshmukh F,"M.A. Psychology, Counsellor Cert",8 years,Design & Creative Fields,"English, Hindi, Bengali",4.4,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+33,Dr. Ramesh Sharma G,"M.Des (NID), UX Specialist",5 years,Law & Humanities,"English, Telugu",4.2,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+34,Anjali Mehta H,"Ph.D in Education, Ex-UPSC Board Member",16 years,Competitive Exams Prep,"English, Telugu",4.5,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+35,Sanjay Gupta I,"M.A. Psychology, Counsellor Cert",17 years,Civil Services & Govt Jobs,"English, Hindi, Gujarati",4.5,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+36,Srinivas Rao J,"M.A. Psychology, Counsellor Cert",8 years,Management & Business Careers,"English, Tamil",4.9,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+37,Vikram Singh K,"Ph.D in Education, Ex-UPSC Board Member",9 years,Medical & Pharmacy Careers,"English, Hindi",4.6,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+38,Dr. Amit Patel L,MBA (IIM Ahmedabad),5 years,Engineering & Tech Careers,"English, Hindi, Bengali",4.9,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+39,Dr. Ramesh Sharma M,"LL.M, Career Counsellor",11 years,Higher Studies Abroad,"English, Hindi, Marathi",4.4,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+40,Rajesh Iyer N,"M.Tech, Ph.D (IIT Bombay)",16 years,Design & Creative Fields,"English, Tamil",4.9,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+41,Srinivas Rao O,"M.A. Psychology, Counsellor Cert",20 years,Engineering & Tech Careers,"English, Hindi, Bengali",4.6,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+42,Vikram Singh P,"M.Des (NID), UX Specialist",17 years,Law & Humanities,"English, Hindi",4.5,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+43,Srinivas Rao Q,"M.Des (NID), UX Specialist",11 years,Management & Business Careers,"English, Tamil",4.7,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+44,Sanjay Gupta R,"LL.M, Career Counsellor",8 years,Management & Business Careers,"English, Hindi, Gujarati",4.6,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+45,Rajesh Iyer S,"M.A. Psychology, Counsellor Cert",19 years,Design & Creative Fields,"English, Telugu",4.7,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+46,Sanjay Gupta T,"M.A. Psychology, Counsellor Cert",21 years,Law & Humanities,"English, Hindi, Bengali",4.4,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+47,Vikram Singh U,"M.A. Psychology, Counsellor Cert",6 years,Law & Humanities,"English, Tamil",4.5,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+48,Srinivas Rao V,"M.Tech, Ph.D (IIT Bombay)",16 years,Competitive Exams Prep,"English, Hindi, Marathi",4.4,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+49,Dr. Amit Patel W,"M.Tech, Ph.D (IIT Bombay)",10 years,Medical & Pharmacy Careers,"English, Hindi, Bengali",4.8,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+50,Anjali Mehta X,"M.Tech, Ph.D (IIT Bombay)",23 years,Engineering & Tech Careers,"English, Hindi, Bengali",4.8,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+51,Dr. Ramesh Sharma Y,"M.Des (NID), UX Specialist",10 years,Design & Creative Fields,"English, Hindi",4.5,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+52,Sanjay Gupta Z,"M.A. Psychology, Counsellor Cert",9 years,Management & Business Careers,"English, Telugu",4.9,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+53,Anjali Mehta A,MBA (IIM Ahmedabad),20 years,Engineering & Tech Careers,"English, Hindi",4.6,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+54,Anjali Mehta B,"M.Tech, Ph.D (IIT Bombay)",16 years,Management & Business Careers,"English, Telugu",4.9,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+55,Vikram Singh C,"M.Tech, Ph.D (IIT Bombay)",12 years,Higher Studies Abroad,"English, Hindi",4.5,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+56,Dr. Amit Patel D,"Ph.D in Education, Ex-UPSC Board Member",20 years,Design & Creative Fields,"English, Hindi, Bengali",4.4,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+57,Anjali Mehta E,"Ph.D in Education, Ex-UPSC Board Member",9 years,Management & Business Careers,"English, Hindi, Bengali",4.4,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+58,Anjali Mehta F,"LL.M, Career Counsellor",24 years,Medical & Pharmacy Careers,"English, Tamil",4.5,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+59,Srinivas Rao G,MBA (IIM Ahmedabad),12 years,Management & Business Careers,"English, Hindi",4.7,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+60,Meera Deshmukh H,"M.A. Psychology, Counsellor Cert",17 years,Competitive Exams Prep,"English, Hindi, Gujarati",4.7,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+61,Srinivas Rao I,"Ph.D in Education, Ex-UPSC Board Member",18 years,Competitive Exams Prep,"English, Hindi, Bengali",4.4,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+62,Srinivas Rao J,"M.Des (NID), UX Specialist",14 years,Law & Humanities,"English, Tamil",4.5,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+63,Vikram Singh K,"Ph.D in Education, Ex-UPSC Board Member",19 years,Medical & Pharmacy Careers,"English, Hindi",5.0,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+64,Rajesh Iyer L,"M.A. Psychology, Counsellor Cert",23 years,Design & Creative Fields,"English, Telugu",4.5,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+65,Anjali Mehta M,"M.A. Psychology, Counsellor Cert",19 years,Higher Studies Abroad,"English, Tamil",4.2,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+66,Dr. Amit Patel N,MBA (IIM Ahmedabad),14 years,Design & Creative Fields,"English, Hindi, Marathi",4.5,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+67,Vikram Singh O,"M.Des (NID), UX Specialist",22 years,Civil Services & Govt Jobs,"English, Hindi",4.8,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+68,Anjali Mehta P,MBA (IIM Ahmedabad),14 years,Management & Business Careers,"English, Hindi, Marathi",4.8,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+69,Dr. Amit Patel Q,"M.A. Psychology, Counsellor Cert",23 years,Medical & Pharmacy Careers,"English, Hindi",4.6,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+70,Dr. Ramesh Sharma R,"LL.M, Career Counsellor",25 years,Engineering & Tech Careers,"English, Telugu",4.7,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+71,Sanjay Gupta S,"M.A. Psychology, Counsellor Cert",22 years,Higher Studies Abroad,"English, Hindi",4.4,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+72,Anjali Mehta T,"M.Des (NID), UX Specialist",12 years,Civil Services & Govt Jobs,"English, Hindi",4.8,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+73,Srinivas Rao U,"M.Tech, Ph.D (IIT Bombay)",11 years,Higher Studies Abroad,"English, Hindi, Gujarati",4.5,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+74,Sanjay Gupta V,"LL.M, Career Counsellor",17 years,Engineering & Tech Careers,"English, Tamil",4.5,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+75,Vikram Singh W,"M.Tech, Ph.D (IIT Bombay)",23 years,Law & Humanities,"English, Tamil",4.3,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+76,Vikram Singh X,MBA (IIM Ahmedabad),9 years,Competitive Exams Prep,"English, Hindi, Gujarati",4.6,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+77,Anjali Mehta Y,MBA (IIM Ahmedabad),12 years,Civil Services & Govt Jobs,"English, Hindi, Marathi",4.4,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+78,Priya Nair Z,"M.Des (NID), UX Specialist",14 years,Engineering & Tech Careers,"English, Hindi, Gujarati",4.5,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+79,Dr. Amit Patel A,"M.Des (NID), UX Specialist",11 years,Engineering & Tech Careers,"English, Telugu",4.2,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+80,Meera Deshmukh B,"M.A. Psychology, Counsellor Cert",22 years,Engineering & Tech Careers,"English, Telugu",4.2,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+81,Anjali Mehta C,"M.Tech, Ph.D (IIT Bombay)",23 years,Competitive Exams Prep,"English, Telugu",4.6,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+82,Prof. Sunita Krishnan D,MBA (IIM Ahmedabad),23 years,Engineering & Tech Careers,"English, Telugu",4.9,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+83,Anjali Mehta E,"Ph.D in Education, Ex-UPSC Board Member",13 years,Civil Services & Govt Jobs,"English, Hindi, Bengali",4.9,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+84,Priya Nair F,"LL.M, Career Counsellor",12 years,Engineering & Tech Careers,"English, Hindi, Gujarati",4.5,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+85,Priya Nair G,"M.Tech, Ph.D (IIT Bombay)",16 years,Design & Creative Fields,"English, Hindi, Marathi",4.8,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+86,Meera Deshmukh H,"M.A. Psychology, Counsellor Cert",25 years,Civil Services & Govt Jobs,"English, Hindi",4.7,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+87,Prof. Sunita Krishnan I,"M.Tech, Ph.D (IIT Bombay)",9 years,Law & Humanities,"English, Hindi",4.2,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+88,Vikram Singh J,"M.A. Psychology, Counsellor Cert",22 years,Law & Humanities,"English, Hindi, Marathi",4.3,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+89,Priya Nair K,MBA (IIM Ahmedabad),9 years,Engineering & Tech Careers,"English, Hindi",4.4,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+90,Rajesh Iyer L,"M.A. Psychology, Counsellor Cert",25 years,Competitive Exams Prep,"English, Hindi",4.8,500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+91,Dr. Amit Patel M,"M.Des (NID), UX Specialist",11 years,Civil Services & Govt Jobs,"English, Tamil",4.7,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+92,Dr. Ramesh Sharma N,MBA (IIM Ahmedabad),18 years,Civil Services & Govt Jobs,"English, Hindi, Gujarati",4.5,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+93,Priya Nair O,"M.Tech, Ph.D (IIT Bombay)",20 years,Law & Humanities,"English, Telugu",4.9,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+94,Prof. Sunita Krishnan P,"Ph.D in Education, Ex-UPSC Board Member",8 years,Competitive Exams Prep,"English, Hindi, Gujarati",4.2,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+95,Prof. Sunita Krishnan Q,"M.Tech, Ph.D (IIT Bombay)",18 years,Law & Humanities,"English, Hindi, Gujarati",4.5,2000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+96,Anjali Mehta R,"M.A. Psychology, Counsellor Cert",21 years,Law & Humanities,"English, Hindi, Bengali",4.8,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+97,Prof. Sunita Krishnan S,"LL.M, Career Counsellor",19 years,Competitive Exams Prep,"English, Hindi, Marathi",4.5,800,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+98,Srinivas Rao T,"M.A. Psychology, Counsellor Cert",23 years,Engineering & Tech Careers,"English, Hindi, Bengali",4.7,1500,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",False
+99,Prof. Sunita Krishnan U,MBA (IIM Ahmedabad),7 years,Competitive Exams Prep,"English, Hindi, Marathi",4.3,1200,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True
+100,Prof. Sunita Krishnan V,MBA (IIM Ahmedabad),5 years,Competitive Exams Prep,"English, Telugu",4.6,1000,"Mon-Fri (4PM-8PM), Sat (10AM-4PM)",True

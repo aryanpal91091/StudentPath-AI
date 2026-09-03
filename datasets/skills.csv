@@ -1,0 +1,85 @@
+id,skill,category
+1,Python,Programming
+2,Java,Programming
+3,C++,Programming
+4,JavaScript,Programming
+5,TypeScript,Programming
+6,C#,Programming
+7,Go,Programming
+8,Rust,Programming
+9,Swift,Programming
+10,Kotlin,Programming
+11,PHP,Programming
+12,Ruby,Programming
+13,SQL,Programming
+14,HTML,Programming
+15,CSS,Programming
+16,Data Structures,Data & AI
+17,Algorithms,Data & AI
+18,Machine Learning,Data & AI
+19,Deep Learning,Data & AI
+20,Natural Language Processing,Data & AI
+21,Computer Vision,Data & AI
+22,Statistics,Data & AI
+23,Data Analytics,Data & AI
+24,SQL,Data & AI
+25,Pandas,Data & AI
+26,NumPy,Data & AI
+27,TensorFlow,Data & AI
+28,PyTorch,Data & AI
+29,Big Data,Data & AI
+30,Data Visualization,Data & AI
+31,React,Web & Cloud
+32,Angular,Web & Cloud
+33,Vue.js,Web & Cloud
+34,Node.js,Web & Cloud
+35,Express,Web & Cloud
+36,Django,Web & Cloud
+37,FastAPI,Web & Cloud
+38,Spring Boot,Web & Cloud
+39,AWS,Web & Cloud
+40,Google Cloud,Web & Cloud
+41,Docker,Web & Cloud
+42,Kubernetes,Web & Cloud
+43,Git,Web & Cloud
+44,REST APIs,Web & Cloud
+45,GraphQL,Web & Cloud
+46,UI/UX Design,Design
+47,Figma,Design
+48,Adobe Illustrator,Design
+49,Photoshop,Design
+50,Graphic Design,Design
+51,3D Modeling,Design
+52,Video Editing,Design
+53,Wireframing,Design
+54,Prototyping,Design
+55,Product Management,Business & Management
+56,Business Analysis,Business & Management
+57,Financial Accounting,Business & Management
+58,Marketing,Business & Management
+59,SEO,Business & Management
+60,Sales,Business & Management
+61,Project Management,Business & Management
+62,Agile,Business & Management
+63,Scrum,Business & Management
+64,Business Strategy,Business & Management
+65,Economics,Business & Management
+66,Communication,Soft Skills
+67,Leadership,Soft Skills
+68,Public Speaking,Soft Skills
+69,Technical Writing,Soft Skills
+70,Creative Writing,Soft Skills
+71,Problem Solving,Soft Skills
+72,Time Management,Soft Skills
+73,Critical Thinking,Soft Skills
+74,Teamwork,Soft Skills
+75,Negotiation,Soft Skills
+76,Research Methodology,Science & Research
+77,Academic Writing,Science & Research
+78,Biotechnology,Science & Research
+79,Bioinformatics,Science & Research
+80,Physics Lab,Science & Research
+81,Chemistry Lab,Science & Research
+82,Mathematics,Science & Research
+83,Calculus,Science & Research
+84,Linear Algebra,Science & Research

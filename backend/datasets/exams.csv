@@ -1,0 +1,101 @@
+id,name,conducting_body,eligibility,education,branches,application_start,deadline,official_url
+1,GATE (Graduate Aptitude Test in Engineering) - 2026,IISc / IITs,"B.Tech/BE, M.Sc, MCA","B.Tech/BE, M.Sc, MCA",B.Tech CSE/ECE/EE/ME/CE,01-09-2026,30-09-2026,https://gate2027.iitd.ac.in
+2,JEE Main (Joint Entrance Examination) - 2026,NTA,Class 12,Class 12,PCM Stream,01-11-2026,30-11-2026,https://jeemain.nta.nic.in
+3,JEE Advanced - 2026,IITs,JEE Main Qualified,JEE Main Qualified,PCM Stream,20-04-2027,10-05-2027,https://jeeadv.ac.in
+4,CAT (Common Admission Test) - 2026,IIMs,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,05-08-2026,15-09-2026,https://iimcat.ac.in
+5,UPSC Civil Services Examination - 2026,UPSC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-02-2027,22-02-2027,https://upsc.gov.in
+6,NEET UG (National Eligibility cum Entrance Test) - 2026,NTA,Class 12,Class 12,PCB Stream,01-03-2027,10-04-2027,https://neet.nta.nic.in
+7,NEET PG - 2026,NBE,MBBS,MBBS,Medicine,05-01-2027,05-02-2027,https://nbe.edu.in
+8,CLAT (Common Law Admission Test) - 2026,Consortium of NLUs,Class 12 / LLB,Class 12 / LLB,All Branches,01-07-2026,15-10-2026,https://consortiumofnlus.ac.in
+9,NDA (National Defence Academy Exam) - 2026,UPSC,Class 12,Class 12,PCM/Arts/Commerce,15-05-2026,04-06-2026,https://upsc.gov.in
+10,CDS (Combined Defence Services Exam) - 2026,UPSC,Bachelor's Degree,Bachelor's Degree,All Branches,15-05-2026,04-06-2026,https://upsc.gov.in
+11,IIT JAM (Joint Admission Test for Masters) - 2026,IITs,B.Sc,B.Sc,"Physics, Chemistry, Maths, Bio",05-09-2026,11-10-2026,https://jam.iitd.ac.in
+12,GPAT (Graduate Pharmacy Aptitude Test) - 2026,NTA,B.Pharm,B.Pharm,Pharmacy,10-02-2027,15-03-2027,https://gpat.nta.nic.in
+13,UGC NET - 2026,NTA,Postgraduate Degree,Postgraduate Degree,"Humanities, CS, Social Sciences",10-04-2027,15-05-2027,https://ugcnet.nta.nic.in
+14,CSIR NET - 2026,NTA,"M.Sc, Integrated BS-MS, B.Tech","M.Sc, Integrated BS-MS, B.Tech","Science, Engineering",15-04-2027,20-05-2027,https://csirnet.nta.nic.in
+15,CEED (Common Entrance Examination for Design) - 2026,IIT Bombay,Bachelor's Degree / Class 12+,Bachelor's Degree / Class 12+,"Design, Art, B.Arch, B.Tech",05-10-2026,11-11-2026,https://ceed.iitb.ac.in
+16,UCEED (Undergraduate Common Entrance Exam for Design) - 2026,IIT Bombay,Class 12,Class 12,All Streams,05-10-2026,11-11-2026,https://uceed.iitb.ac.in
+17,XAT (Xavier Aptitude Test) - 2026,XLRI,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,15-07-2026,30-11-2026,https://xatonline.in
+18,NMAT by GMAC - 2026,GMAC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,10-10-2026,https://register.nmat.org
+19,SNAP (Symbiosis National Aptitude Test) - 2026,SIU,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,20-08-2026,23-11-2026,https://snaptest.org
+20,IBPS PO (Probationary Officers Exam) - 2026,IBPS,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,22-08-2026,https://ibps.in
+21,GATE (Graduate Aptitude Test in Engineering) - 2027,IISc / IITs,"B.Tech/BE, M.Sc, MCA","B.Tech/BE, M.Sc, MCA",B.Tech CSE/ECE/EE/ME/CE,01-09-2026,30-09-2026,https://gate2027.iitd.ac.in
+22,JEE Main (Joint Entrance Examination) - 2027,NTA,Class 12,Class 12,PCM Stream,01-11-2026,30-11-2026,https://jeemain.nta.nic.in
+23,JEE Advanced - 2027,IITs,JEE Main Qualified,JEE Main Qualified,PCM Stream,20-04-2027,10-05-2027,https://jeeadv.ac.in
+24,CAT (Common Admission Test) - 2027,IIMs,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,05-08-2026,15-09-2026,https://iimcat.ac.in
+25,UPSC Civil Services Examination - 2027,UPSC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-02-2027,22-02-2027,https://upsc.gov.in
+26,NEET UG (National Eligibility cum Entrance Test) - 2027,NTA,Class 12,Class 12,PCB Stream,01-03-2027,10-04-2027,https://neet.nta.nic.in
+27,NEET PG - 2027,NBE,MBBS,MBBS,Medicine,05-01-2027,05-02-2027,https://nbe.edu.in
+28,CLAT (Common Law Admission Test) - 2027,Consortium of NLUs,Class 12 / LLB,Class 12 / LLB,All Branches,01-07-2026,15-10-2026,https://consortiumofnlus.ac.in
+29,NDA (National Defence Academy Exam) - 2027,UPSC,Class 12,Class 12,PCM/Arts/Commerce,15-05-2026,04-06-2026,https://upsc.gov.in
+30,CDS (Combined Defence Services Exam) - 2027,UPSC,Bachelor's Degree,Bachelor's Degree,All Branches,15-05-2026,04-06-2026,https://upsc.gov.in
+31,IIT JAM (Joint Admission Test for Masters) - 2027,IITs,B.Sc,B.Sc,"Physics, Chemistry, Maths, Bio",05-09-2026,11-10-2026,https://jam.iitd.ac.in
+32,GPAT (Graduate Pharmacy Aptitude Test) - 2027,NTA,B.Pharm,B.Pharm,Pharmacy,10-02-2027,15-03-2027,https://gpat.nta.nic.in
+33,UGC NET - 2027,NTA,Postgraduate Degree,Postgraduate Degree,"Humanities, CS, Social Sciences",10-04-2027,15-05-2027,https://ugcnet.nta.nic.in
+34,CSIR NET - 2027,NTA,"M.Sc, Integrated BS-MS, B.Tech","M.Sc, Integrated BS-MS, B.Tech","Science, Engineering",15-04-2027,20-05-2027,https://csirnet.nta.nic.in
+35,CEED (Common Entrance Examination for Design) - 2027,IIT Bombay,Bachelor's Degree / Class 12+,Bachelor's Degree / Class 12+,"Design, Art, B.Arch, B.Tech",05-10-2026,11-11-2026,https://ceed.iitb.ac.in
+36,UCEED (Undergraduate Common Entrance Exam for Design) - 2027,IIT Bombay,Class 12,Class 12,All Streams,05-10-2026,11-11-2026,https://uceed.iitb.ac.in
+37,XAT (Xavier Aptitude Test) - 2027,XLRI,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,15-07-2026,30-11-2026,https://xatonline.in
+38,NMAT by GMAC - 2027,GMAC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,10-10-2026,https://register.nmat.org
+39,SNAP (Symbiosis National Aptitude Test) - 2027,SIU,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,20-08-2026,23-11-2026,https://snaptest.org
+40,IBPS PO (Probationary Officers Exam) - 2027,IBPS,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,22-08-2026,https://ibps.in
+41,GATE (Graduate Aptitude Test in Engineering) - 2028,IISc / IITs,"B.Tech/BE, M.Sc, MCA","B.Tech/BE, M.Sc, MCA",B.Tech CSE/ECE/EE/ME/CE,01-09-2026,30-09-2026,https://gate2027.iitd.ac.in
+42,JEE Main (Joint Entrance Examination) - 2028,NTA,Class 12,Class 12,PCM Stream,01-11-2026,30-11-2026,https://jeemain.nta.nic.in
+43,JEE Advanced - 2028,IITs,JEE Main Qualified,JEE Main Qualified,PCM Stream,20-04-2027,10-05-2027,https://jeeadv.ac.in
+44,CAT (Common Admission Test) - 2028,IIMs,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,05-08-2026,15-09-2026,https://iimcat.ac.in
+45,UPSC Civil Services Examination - 2028,UPSC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-02-2027,22-02-2027,https://upsc.gov.in
+46,NEET UG (National Eligibility cum Entrance Test) - 2028,NTA,Class 12,Class 12,PCB Stream,01-03-2027,10-04-2027,https://neet.nta.nic.in
+47,NEET PG - 2028,NBE,MBBS,MBBS,Medicine,05-01-2027,05-02-2027,https://nbe.edu.in
+48,CLAT (Common Law Admission Test) - 2028,Consortium of NLUs,Class 12 / LLB,Class 12 / LLB,All Branches,01-07-2026,15-10-2026,https://consortiumofnlus.ac.in
+49,NDA (National Defence Academy Exam) - 2028,UPSC,Class 12,Class 12,PCM/Arts/Commerce,15-05-2026,04-06-2026,https://upsc.gov.in
+50,CDS (Combined Defence Services Exam) - 2028,UPSC,Bachelor's Degree,Bachelor's Degree,All Branches,15-05-2026,04-06-2026,https://upsc.gov.in
+51,IIT JAM (Joint Admission Test for Masters) - 2028,IITs,B.Sc,B.Sc,"Physics, Chemistry, Maths, Bio",05-09-2026,11-10-2026,https://jam.iitd.ac.in
+52,GPAT (Graduate Pharmacy Aptitude Test) - 2028,NTA,B.Pharm,B.Pharm,Pharmacy,10-02-2027,15-03-2027,https://gpat.nta.nic.in
+53,UGC NET - 2028,NTA,Postgraduate Degree,Postgraduate Degree,"Humanities, CS, Social Sciences",10-04-2027,15-05-2027,https://ugcnet.nta.nic.in
+54,CSIR NET - 2028,NTA,"M.Sc, Integrated BS-MS, B.Tech","M.Sc, Integrated BS-MS, B.Tech","Science, Engineering",15-04-2027,20-05-2027,https://csirnet.nta.nic.in
+55,CEED (Common Entrance Examination for Design) - 2028,IIT Bombay,Bachelor's Degree / Class 12+,Bachelor's Degree / Class 12+,"Design, Art, B.Arch, B.Tech",05-10-2026,11-11-2026,https://ceed.iitb.ac.in
+56,UCEED (Undergraduate Common Entrance Exam for Design) - 2028,IIT Bombay,Class 12,Class 12,All Streams,05-10-2026,11-11-2026,https://uceed.iitb.ac.in
+57,XAT (Xavier Aptitude Test) - 2028,XLRI,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,15-07-2026,30-11-2026,https://xatonline.in
+58,NMAT by GMAC - 2028,GMAC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,10-10-2026,https://register.nmat.org
+59,SNAP (Symbiosis National Aptitude Test) - 2028,SIU,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,20-08-2026,23-11-2026,https://snaptest.org
+60,IBPS PO (Probationary Officers Exam) - 2028,IBPS,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,22-08-2026,https://ibps.in
+61,GATE (Graduate Aptitude Test in Engineering) - 2029,IISc / IITs,"B.Tech/BE, M.Sc, MCA","B.Tech/BE, M.Sc, MCA",B.Tech CSE/ECE/EE/ME/CE,01-09-2026,30-09-2026,https://gate2027.iitd.ac.in
+62,JEE Main (Joint Entrance Examination) - 2029,NTA,Class 12,Class 12,PCM Stream,01-11-2026,30-11-2026,https://jeemain.nta.nic.in
+63,JEE Advanced - 2029,IITs,JEE Main Qualified,JEE Main Qualified,PCM Stream,20-04-2027,10-05-2027,https://jeeadv.ac.in
+64,CAT (Common Admission Test) - 2029,IIMs,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,05-08-2026,15-09-2026,https://iimcat.ac.in
+65,UPSC Civil Services Examination - 2029,UPSC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-02-2027,22-02-2027,https://upsc.gov.in
+66,NEET UG (National Eligibility cum Entrance Test) - 2029,NTA,Class 12,Class 12,PCB Stream,01-03-2027,10-04-2027,https://neet.nta.nic.in
+67,NEET PG - 2029,NBE,MBBS,MBBS,Medicine,05-01-2027,05-02-2027,https://nbe.edu.in
+68,CLAT (Common Law Admission Test) - 2029,Consortium of NLUs,Class 12 / LLB,Class 12 / LLB,All Branches,01-07-2026,15-10-2026,https://consortiumofnlus.ac.in
+69,NDA (National Defence Academy Exam) - 2029,UPSC,Class 12,Class 12,PCM/Arts/Commerce,15-05-2026,04-06-2026,https://upsc.gov.in
+70,CDS (Combined Defence Services Exam) - 2029,UPSC,Bachelor's Degree,Bachelor's Degree,All Branches,15-05-2026,04-06-2026,https://upsc.gov.in
+71,IIT JAM (Joint Admission Test for Masters) - 2029,IITs,B.Sc,B.Sc,"Physics, Chemistry, Maths, Bio",05-09-2026,11-10-2026,https://jam.iitd.ac.in
+72,GPAT (Graduate Pharmacy Aptitude Test) - 2029,NTA,B.Pharm,B.Pharm,Pharmacy,10-02-2027,15-03-2027,https://gpat.nta.nic.in
+73,UGC NET - 2029,NTA,Postgraduate Degree,Postgraduate Degree,"Humanities, CS, Social Sciences",10-04-2027,15-05-2027,https://ugcnet.nta.nic.in
+74,CSIR NET - 2029,NTA,"M.Sc, Integrated BS-MS, B.Tech","M.Sc, Integrated BS-MS, B.Tech","Science, Engineering",15-04-2027,20-05-2027,https://csirnet.nta.nic.in
+75,CEED (Common Entrance Examination for Design) - 2029,IIT Bombay,Bachelor's Degree / Class 12+,Bachelor's Degree / Class 12+,"Design, Art, B.Arch, B.Tech",05-10-2026,11-11-2026,https://ceed.iitb.ac.in
+76,UCEED (Undergraduate Common Entrance Exam for Design) - 2029,IIT Bombay,Class 12,Class 12,All Streams,05-10-2026,11-11-2026,https://uceed.iitb.ac.in
+77,XAT (Xavier Aptitude Test) - 2029,XLRI,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,15-07-2026,30-11-2026,https://xatonline.in
+78,NMAT by GMAC - 2029,GMAC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,10-10-2026,https://register.nmat.org
+79,SNAP (Symbiosis National Aptitude Test) - 2029,SIU,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,20-08-2026,23-11-2026,https://snaptest.org
+80,IBPS PO (Probationary Officers Exam) - 2029,IBPS,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,22-08-2026,https://ibps.in
+81,GATE (Graduate Aptitude Test in Engineering) - 2030,IISc / IITs,"B.Tech/BE, M.Sc, MCA","B.Tech/BE, M.Sc, MCA",B.Tech CSE/ECE/EE/ME/CE,01-09-2026,30-09-2026,https://gate2027.iitd.ac.in
+82,JEE Main (Joint Entrance Examination) - 2030,NTA,Class 12,Class 12,PCM Stream,01-11-2026,30-11-2026,https://jeemain.nta.nic.in
+83,JEE Advanced - 2030,IITs,JEE Main Qualified,JEE Main Qualified,PCM Stream,20-04-2027,10-05-2027,https://jeeadv.ac.in
+84,CAT (Common Admission Test) - 2030,IIMs,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,05-08-2026,15-09-2026,https://iimcat.ac.in
+85,UPSC Civil Services Examination - 2030,UPSC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-02-2027,22-02-2027,https://upsc.gov.in
+86,NEET UG (National Eligibility cum Entrance Test) - 2030,NTA,Class 12,Class 12,PCB Stream,01-03-2027,10-04-2027,https://neet.nta.nic.in
+87,NEET PG - 2030,NBE,MBBS,MBBS,Medicine,05-01-2027,05-02-2027,https://nbe.edu.in
+88,CLAT (Common Law Admission Test) - 2030,Consortium of NLUs,Class 12 / LLB,Class 12 / LLB,All Branches,01-07-2026,15-10-2026,https://consortiumofnlus.ac.in
+89,NDA (National Defence Academy Exam) - 2030,UPSC,Class 12,Class 12,PCM/Arts/Commerce,15-05-2026,04-06-2026,https://upsc.gov.in
+90,CDS (Combined Defence Services Exam) - 2030,UPSC,Bachelor's Degree,Bachelor's Degree,All Branches,15-05-2026,04-06-2026,https://upsc.gov.in
+91,IIT JAM (Joint Admission Test for Masters) - 2030,IITs,B.Sc,B.Sc,"Physics, Chemistry, Maths, Bio",05-09-2026,11-10-2026,https://jam.iitd.ac.in
+92,GPAT (Graduate Pharmacy Aptitude Test) - 2030,NTA,B.Pharm,B.Pharm,Pharmacy,10-02-2027,15-03-2027,https://gpat.nta.nic.in
+93,UGC NET - 2030,NTA,Postgraduate Degree,Postgraduate Degree,"Humanities, CS, Social Sciences",10-04-2027,15-05-2027,https://ugcnet.nta.nic.in
+94,CSIR NET - 2030,NTA,"M.Sc, Integrated BS-MS, B.Tech","M.Sc, Integrated BS-MS, B.Tech","Science, Engineering",15-04-2027,20-05-2027,https://csirnet.nta.nic.in
+95,CEED (Common Entrance Examination for Design) - 2030,IIT Bombay,Bachelor's Degree / Class 12+,Bachelor's Degree / Class 12+,"Design, Art, B.Arch, B.Tech",05-10-2026,11-11-2026,https://ceed.iitb.ac.in
+96,UCEED (Undergraduate Common Entrance Exam for Design) - 2030,IIT Bombay,Class 12,Class 12,All Streams,05-10-2026,11-11-2026,https://uceed.iitb.ac.in
+97,XAT (Xavier Aptitude Test) - 2030,XLRI,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,15-07-2026,30-11-2026,https://xatonline.in
+98,NMAT by GMAC - 2030,GMAC,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,10-10-2026,https://register.nmat.org
+99,SNAP (Symbiosis National Aptitude Test) - 2030,SIU,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,20-08-2026,23-11-2026,https://snaptest.org
+100,IBPS PO (Probationary Officers Exam) - 2030,IBPS,Any Bachelor's Degree,Any Bachelor's Degree,All Branches,01-08-2026,22-08-2026,https://ibps.in

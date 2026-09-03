@@ -1,0 +1,501 @@
+id,title,provider,career,skills,duration,level
+1,Python for Data Science and AI - Edition 1,Simplilearn,Software Engineer,"Data Structures,Algorithms,Machine Learning",7,Advanced
+2,Mastering Data Structures & Algorithms - Edition 1,Great Learning,AI/ML Engineer,"Data Structures,Algorithms,Machine Learning",10,Advanced
+3,React - The Complete Guide - Edition 1,Simplilearn,Data Analyst,"Statistics,Product Management,Business Analysis",10,Intermediate
+4,Machine Learning Specialization - Edition 1,Great Learning,Product Manager,"Product Management,Business Analysis,Financial Accounting",19,Advanced
+5,Deep Learning and Neural Networks - Edition 1,edX,Cybersecurity Analyst,"Node.js,Communication,Public Speaking",14,Advanced
+6,AWS Certified Solutions Architect - Edition 1,Simplilearn,UI/UX Designer,"HTML,CSS,React",13,Intermediate
+7,UI/UX Design Masterclass - Edition 1,Coursera,Chartered Accountant,"Product Management,Business Analysis,Financial Accounting",11,Beginner
+8,Introduction to Financial Accounting - Edition 1,Simplilearn,Civil Servant (IAS/IPS),"Go,Data Structures,Algorithms",4,Advanced
+9,Product Management Fundamental Course - Edition 1,Great Learning,Management Consultant,"Product Management,Business Analysis,Financial Accounting",9,Intermediate
+10,Cybersecurity Threat Detection and Mitigation - Edition 1,Google Career Certificates,Biotechnology Researcher,"Leadership,Research Methodology,Academic Writing",10,Beginner
+11,Academic Writing & Research Methodology - Edition 1,Udemy,Cloud Architect,"Product Management,Business Analysis,Financial Accounting",4,Advanced
+12,SQL Masterclass: SQL for Analytics - Edition 1,Great Learning,DevOps Engineer,"Creative Writing,Time Management,Negotiation",7,Beginner
+13,Full-Stack Web Development Bootcamp - Edition 1,SWAYAM,Investment Banker,"Go,Data Structures,Algorithms",24,Intermediate
+14,Google Project Management Certificate - Edition 1,Coursera,Marketing Manager,"Marketing,Economics,Communication",15,Beginner
+15,UPSC Preparation: Indian Polity and History - Edition 1,Simplilearn,Corporate Lawyer,"Product Management,Business Analysis,Financial Accounting",40,Advanced
+16,Corporate Law & Contract Drafting - Edition 1,Udemy,Defense Officer (Army/Navy/Air Force),"Data Structures,Algorithms,Machine Learning",14,Intermediate
+17,Embedded C Programming for IoT Devices - Edition 1,Udemy,Entrepreneur,"Product Management,Business Analysis,Financial Accounting",14,Beginner
+18,Statistical Inference for Researchers - Edition 1,Coursera,Research Scientist,"Negotiation,Research Methodology,Academic Writing",6,Advanced
+19,Business Strategy & Finance for Founders - Edition 1,NPTEL,Public Relations Specialist,"Communication,Leadership,Time Management",12,Beginner
+20,Technical Writing for Software Engineers - Edition 1,Coursera,Data Engineer,"Leadership,Technical Writing,Problem Solving",7,Beginner
+21,Python for Data Science and AI - Edition 2,NPTEL,Frontend Developer,"Java,JavaScript,HTML",6,Intermediate
+22,Mastering Data Structures & Algorithms - Edition 2,SWAYAM,Backend Developer,"Python,Java,Node.js",12,Advanced
+23,React - The Complete Guide - Edition 2,Coursera,Full Stack Developer,"HTML,CSS,React",8,Beginner
+24,Machine Learning Specialization - Edition 2,SWAYAM,Mobile App Developer,"Communication,Public Speaking,Mathematics",16,Beginner
+25,Deep Learning and Neural Networks - Edition 2,Udemy,Database Administrator,"Data Structures,Algorithms,Machine Learning",16,Intermediate
+26,AWS Certified Solutions Architect - Edition 2,Udemy,Game Developer,"3D Modeling,Communication,Public Speaking",14,Intermediate
+27,UI/UX Design Masterclass - Edition 2,NPTEL,QA Automation Engineer,"Rust,Creative Writing,Negotiation",12,Intermediate
+28,Introduction to Financial Accounting - Edition 2,edX,Network Security Engineer,"Django,Technical Writing,Biotechnology",7,Beginner
+29,Product Management Fundamental Course - Edition 2,Udemy,Cloud DevOps Architect,"Natural Language Processing,Leadership,Teamwork",6,Intermediate
+30,Cybersecurity Threat Detection and Mitigation - Edition 2,Coursera,Systems Administrator,"Data Structures,Algorithms,Machine Learning",14,Advanced
+31,Academic Writing & Research Methodology - Edition 2,Simplilearn,VLSI Design Engineer,"Leadership,Technical Writing,Mathematics",7,Intermediate
+32,SQL Masterclass: SQL for Analytics - Edition 2,Great Learning,Embedded Systems Engineer,"Vue.js,Creative Writing,Time Management",6,Intermediate
+33,Full-Stack Web Development Bootcamp - Edition 2,Simplilearn,Aerospace Engineer,"Data Structures,Algorithms,Machine Learning",28,Advanced
+34,Google Project Management Certificate - Edition 2,NPTEL,Mechanical Design Engineer,"Graphic Design,SEO,Mathematics",15,Beginner
+35,UPSC Preparation: Indian Polity and History - Edition 2,Great Learning,Civil Site Engineer,"Leadership,Technical Writing,Creative Writing",41,Beginner
+36,Corporate Law & Contract Drafting - Edition 2,Coursera,Chemical Engineer,"Communication,Leadership,Technical Writing",12,Intermediate
+37,Embedded C Programming for IoT Devices - Edition 2,edX,Financial Risk Analyst,"Statistics,Economics,Leadership",11,Advanced
+38,Statistical Inference for Researchers - Edition 2,Coursera,Stock Trader / Portfolio Manager,"Statistics,Economics,Public Speaking",6,Intermediate
+39,Business Strategy & Finance for Founders - Edition 2,Great Learning,Tax Consultant,"Communication,Public Speaking,Time Management",11,Beginner
+40,Technical Writing for Software Engineers - Edition 2,Udemy,Human Resource Manager,"Data Structures,Algorithms,Machine Learning",3,Intermediate
+41,Python for Data Science and AI - Edition 3,Udemy,Operations Manager,"Data Structures,Algorithms,Machine Learning",9,Intermediate
+42,Mastering Data Structures & Algorithms - Edition 3,Google Career Certificates,SEO & Content Writer,"React,Angular,Vue.js",10,Beginner
+43,React - The Complete Guide - Edition 3,Coursera,Journalist & Media Reporter,"Git,Communication,Leadership",11,Advanced
+44,Machine Learning Specialization - Edition 3,Coursera,3D Animator & Visual Artist,"3D Modeling,Communication,Creative Writing",17,Advanced
+45,Deep Learning and Neural Networks - Edition 3,Udemy,Patent Attorney,"Communication,Technical Writing,Time Management",17,Intermediate
+46,AWS Certified Solutions Architect - Edition 3,Coursera,Criminal Defense Lawyer,"Kotlin,Public Speaking,Negotiation",15,Intermediate
+47,UI/UX Design Masterclass - Edition 3,Great Learning,High School Physics Teacher,"Public Speaking,Problem Solving,Negotiation",9,Advanced
+48,Introduction to Financial Accounting - Edition 3,Simplilearn,College Professor (Computer Science),"Problem Solving,Teamwork,Research Methodology",4,Intermediate
+49,Product Management Fundamental Course - Edition 3,edX,Clinical Psychologist,"Communication,Public Speaking,Problem Solving",7,Intermediate
+50,Cybersecurity Threat Detection and Mitigation - Edition 3,NPTEL,Clinical Research Associate,"GraphQL,Technical Writing,Teamwork",11,Beginner
+51,Academic Writing & Research Methodology - Edition 3,NPTEL,Pharmacist,"Java,Problem Solving,Critical Thinking",5,Advanced
+52,SQL Masterclass: SQL for Analytics - Edition 3,edX,General Medical Practitioner,"Communication,Public Speaking,Technical Writing",4,Advanced
+53,Full-Stack Web Development Bootcamp - Edition 3,Great Learning,Agricultural Officer,"Go,Economics,Public Speaking",22,Intermediate
+54,Google Project Management Certificate - Edition 3,Coursera,Food Technologist,"Communication,Leadership,Technical Writing",16,Intermediate
+55,UPSC Preparation: Indian Polity and History - Edition 3,Coursera,Environmental Consultant,"Go,Product Management,Business Analysis",44,Beginner
+56,Corporate Law & Contract Drafting - Edition 3,edX,Social Worker (NGO Manager),"Communication,Public Speaking,Problem Solving",10,Advanced
+57,Embedded C Programming for IoT Devices - Edition 3,Google Career Certificates,Public Policy Analyst,"Go,AWS,Economics",12,Beginner
+58,Statistical Inference for Researchers - Edition 3,SWAYAM,Data Scientist,"Machine Learning,Statistics,Leadership",6,Advanced
+59,Business Strategy & Finance for Founders - Edition 3,edX,Cybersecurity Consultant,"Product Management,Business Analysis,Financial Accounting",8,Intermediate
+60,Technical Writing for Software Engineers - Edition 3,edX,Enterprise Risk Consultant,"Product Management,Business Analysis,Financial Accounting",5,Advanced
+61,Python for Data Science and AI - Edition 4,edX,User Experience Researcher,"Communication,Technical Writing,Time Management",9,Advanced
+62,Mastering Data Structures & Algorithms - Edition 4,edX,Solutions Architect,"Product Management,Business Analysis,Financial Accounting",13,Advanced
+63,React - The Complete Guide - Edition 4,Coursera,Robotics Software Engineer,"Computer Vision,Leadership,Time Management",9,Intermediate
+64,Machine Learning Specialization - Edition 4,SWAYAM,Biomedical Instrumentation Engineer,"Data Structures,Algorithms,Machine Learning",17,Intermediate
+65,Deep Learning and Neural Networks - Edition 4,Google Career Certificates,Actuarial Analyst,"Statistics,Problem Solving,Time Management",12,Intermediate
+66,AWS Certified Solutions Architect - Edition 4,Simplilearn,Financial Consultant,"Data Analytics,Economics,Problem Solving",12,Advanced
+67,UI/UX Design Masterclass - Edition 4,Coursera,Supply Chain Analyst,"Product Management,Business Analysis,Financial Accounting",8,Beginner
+68,Introduction to Financial Accounting - Edition 4,Google Career Certificates,Brand Strategist,"Marketing,Communication,Public Speaking",8,Beginner
+69,Product Management Fundamental Course - Edition 4,Coursera,Media Planner,"Data Structures,Algorithms,Machine Learning",5,Beginner
+70,Cybersecurity Threat Detection and Mitigation - Edition 4,edX,Technical Product Owner,"React,Angular,Vue.js",9,Beginner
+71,Academic Writing & Research Methodology - Edition 4,Simplilearn,Creative Director,"Graphic Design,Communication,Leadership",2,Beginner
+72,SQL Masterclass: SQL for Analytics - Edition 4,Great Learning,IP Litigation Specialist,"Leadership,Public Speaking,Time Management",6,Intermediate
+73,Full-Stack Web Development Bootcamp - Edition 4,edX,Public Prosecutor,"Java,Creative Writing,Negotiation",24,Beginner
+74,Google Project Management Certificate - Edition 4,Simplilearn,Special Education Teacher,"Communication,Leadership,Problem Solving",13,Beginner
+75,UPSC Preparation: Indian Polity and History - Edition 4,Google Career Certificates,Data Visualization Specialist,"SQL,Statistics,SQL",38,Advanced
+76,Corporate Law & Contract Drafting - Edition 4,Udemy,SRE Engineer,"Data Structures,Algorithms,Machine Learning",15,Advanced
+77,Embedded C Programming for IoT Devices - Edition 4,Simplilearn,VLSI Verification Engineer,"C++,Git,Leadership",13,Beginner
+78,Statistical Inference for Researchers - Edition 4,SWAYAM,Embedded Firmware Developer,"C++,Public Speaking,Creative Writing",10,Beginner
+79,Business Strategy & Finance for Founders - Edition 4,Coursera,IoT Systems Architect,"Leadership,Creative Writing,Critical Thinking",7,Beginner
+80,Technical Writing for Software Engineers - Edition 4,edX,Aerodynamics Analyst,"Technical Writing,Creative Writing,Time Management",6,Beginner
+81,Python for Data Science and AI - Edition 5,Great Learning,Structural Design Engineer,"Deep Learning,Creative Writing,Academic Writing",7,Advanced
+82,Mastering Data Structures & Algorithms - Edition 5,NPTEL,Chemical Process Safety Specialist,"Data Structures,React,REST APIs",13,Intermediate
+83,React - The Complete Guide - Edition 5,NPTEL,Quantitative Finance Analyst,"Go,Algorithms,Statistics",9,Intermediate
+84,Machine Learning Specialization - Edition 5,SWAYAM,Arbitrage Trader,"Economics,Leadership,Technical Writing",15,Beginner
+85,Deep Learning and Neural Networks - Edition 5,Udemy,Corporate Treasury Analyst,"Economics,Technical Writing,Time Management",16,Advanced
+86,AWS Certified Solutions Architect - Edition 5,Great Learning,HR Recruitment Specialist,"Product Management,Business Analysis,Financial Accounting",11,Intermediate
+87,UI/UX Design Masterclass - Edition 5,NPTEL,Digital Marketing Specialist,"Data Structures,Algorithms,Machine Learning",10,Beginner
+88,Introduction to Financial Accounting - Edition 5,Great Learning,News Editor,"Communication,Technical Writing,Creative Writing",7,Intermediate
+89,Product Management Fundamental Course - Edition 5,NPTEL,Illustrator & Concept Artist,"Graphic Design,Creative Writing,Critical Thinking",4,Advanced
+90,Cybersecurity Threat Detection and Mitigation - Edition 5,SWAYAM,Regulatory Affairs Specialist,"Go,Creative Writing,Problem Solving",14,Advanced
+91,Academic Writing & Research Methodology - Edition 5,Udemy,Bioinformatics Analyst,"Go,Algorithms,Statistics",5,Beginner
+92,SQL Masterclass: SQL for Analytics - Edition 5,Simplilearn,Organic Chemist,"Django,Business Strategy,Chemistry Lab",9,Advanced
+93,Full-Stack Web Development Bootcamp - Edition 5,edX,Academic Counsellor,"Communication,Technical Writing,Creative Writing",24,Intermediate
+94,Google Project Management Certificate - Edition 5,Simplilearn,Disaster Relief Coordinator,"Data Structures,Algorithms,Machine Learning",16,Intermediate
+95,UPSC Preparation: Indian Polity and History - Edition 5,Great Learning,Urban Policy Researcher,"Economics,Communication,Public Speaking",41,Intermediate
+96,Corporate Law & Contract Drafting - Edition 5,SWAYAM,Corporate Social Responsibility Lead,"Go,Product Management,Business Analysis",13,Beginner
+97,Embedded C Programming for IoT Devices - Edition 5,Udemy,System Security Architect,"C++,Communication,Problem Solving",8,Advanced
+98,Statistical Inference for Researchers - Edition 5,Udemy,E-commerce Category Manager,"Product Management,Business Analysis,Financial Accounting",8,Advanced
+99,Business Strategy & Finance for Founders - Edition 5,SWAYAM,Speech & Language Therapist,"Data Structures,Algorithms,Machine Learning",11,Intermediate
+100,Technical Writing for Software Engineers - Edition 5,SWAYAM,Horticulturist,"Leadership,Creative Writing,Problem Solving",6,Intermediate
+101,Python for Data Science and AI - Edition 6,Great Learning,Software Engineer,"Data Structures,Algorithms,Machine Learning",8,Beginner
+102,Mastering Data Structures & Algorithms - Edition 6,Great Learning,AI/ML Engineer,"Data Structures,Algorithms,Machine Learning",15,Beginner
+103,React - The Complete Guide - Edition 6,SWAYAM,Data Analyst,"Statistics,Product Management,Business Analysis",14,Intermediate
+104,Machine Learning Specialization - Edition 6,edX,Product Manager,"Product Management,Business Analysis,Financial Accounting",14,Intermediate
+105,Deep Learning and Neural Networks - Edition 6,Google Career Certificates,Cybersecurity Analyst,"Node.js,Communication,Public Speaking",16,Intermediate
+106,AWS Certified Solutions Architect - Edition 6,edX,UI/UX Designer,"HTML,CSS,React",15,Intermediate
+107,UI/UX Design Masterclass - Edition 6,Simplilearn,Chartered Accountant,"Product Management,Business Analysis,Financial Accounting",12,Advanced
+108,Introduction to Financial Accounting - Edition 6,edX,Civil Servant (IAS/IPS),"Go,Data Structures,Algorithms",7,Beginner
+109,Product Management Fundamental Course - Edition 6,Google Career Certificates,Management Consultant,"Product Management,Business Analysis,Financial Accounting",10,Intermediate
+110,Cybersecurity Threat Detection and Mitigation - Edition 6,SWAYAM,Biotechnology Researcher,"Leadership,Research Methodology,Academic Writing",9,Advanced
+111,Academic Writing & Research Methodology - Edition 6,Google Career Certificates,Cloud Architect,"Product Management,Business Analysis,Financial Accounting",8,Advanced
+112,SQL Masterclass: SQL for Analytics - Edition 6,SWAYAM,DevOps Engineer,"Creative Writing,Time Management,Negotiation",9,Intermediate
+113,Full-Stack Web Development Bootcamp - Edition 6,edX,Investment Banker,"Go,Data Structures,Algorithms",25,Intermediate
+114,Google Project Management Certificate - Edition 6,SWAYAM,Marketing Manager,"Marketing,Economics,Communication",15,Intermediate
+115,UPSC Preparation: Indian Polity and History - Edition 6,Great Learning,Corporate Lawyer,"Product Management,Business Analysis,Financial Accounting",39,Advanced
+116,Corporate Law & Contract Drafting - Edition 6,Google Career Certificates,Defense Officer (Army/Navy/Air Force),"Data Structures,Algorithms,Machine Learning",13,Intermediate
+117,Embedded C Programming for IoT Devices - Edition 6,Coursera,Entrepreneur,"Product Management,Business Analysis,Financial Accounting",14,Advanced
+118,Statistical Inference for Researchers - Edition 6,Great Learning,Research Scientist,"Negotiation,Research Methodology,Academic Writing",7,Intermediate
+119,Business Strategy & Finance for Founders - Edition 6,Simplilearn,Public Relations Specialist,"Communication,Leadership,Time Management",12,Advanced
+120,Technical Writing for Software Engineers - Edition 6,edX,Data Engineer,"Leadership,Technical Writing,Problem Solving",3,Intermediate
+121,Python for Data Science and AI - Edition 7,Coursera,Frontend Developer,"Java,JavaScript,HTML",9,Advanced
+122,Mastering Data Structures & Algorithms - Edition 7,NPTEL,Backend Developer,"Python,Java,Node.js",15,Intermediate
+123,React - The Complete Guide - Edition 7,Great Learning,Full Stack Developer,"HTML,CSS,React",12,Advanced
+124,Machine Learning Specialization - Edition 7,Coursera,Mobile App Developer,"Communication,Public Speaking,Mathematics",14,Advanced
+125,Deep Learning and Neural Networks - Edition 7,Great Learning,Database Administrator,"Data Structures,Algorithms,Machine Learning",12,Intermediate
+126,AWS Certified Solutions Architect - Edition 7,Udemy,Game Developer,"3D Modeling,Communication,Public Speaking",15,Beginner
+127,UI/UX Design Masterclass - Edition 7,edX,QA Automation Engineer,"Rust,Creative Writing,Negotiation",9,Intermediate
+128,Introduction to Financial Accounting - Edition 7,Google Career Certificates,Network Security Engineer,"Django,Technical Writing,Biotechnology",5,Advanced
+129,Product Management Fundamental Course - Edition 7,Google Career Certificates,Cloud DevOps Architect,"Natural Language Processing,Leadership,Teamwork",7,Intermediate
+130,Cybersecurity Threat Detection and Mitigation - Edition 7,Coursera,Systems Administrator,"Data Structures,Algorithms,Machine Learning",10,Advanced
+131,Academic Writing & Research Methodology - Edition 7,Simplilearn,VLSI Design Engineer,"Leadership,Technical Writing,Mathematics",3,Intermediate
+132,SQL Masterclass: SQL for Analytics - Edition 7,SWAYAM,Embedded Systems Engineer,"Vue.js,Creative Writing,Time Management",5,Beginner
+133,Full-Stack Web Development Bootcamp - Edition 7,Great Learning,Aerospace Engineer,"Data Structures,Algorithms,Machine Learning",27,Beginner
+134,Google Project Management Certificate - Edition 7,Google Career Certificates,Mechanical Design Engineer,"Graphic Design,SEO,Mathematics",16,Beginner
+135,UPSC Preparation: Indian Polity and History - Edition 7,NPTEL,Civil Site Engineer,"Leadership,Technical Writing,Creative Writing",38,Beginner
+136,Corporate Law & Contract Drafting - Edition 7,SWAYAM,Chemical Engineer,"Communication,Leadership,Technical Writing",15,Advanced
+137,Embedded C Programming for IoT Devices - Edition 7,Google Career Certificates,Financial Risk Analyst,"Statistics,Economics,Leadership",8,Beginner
+138,Statistical Inference for Researchers - Edition 7,Simplilearn,Stock Trader / Portfolio Manager,"Statistics,Economics,Public Speaking",8,Advanced
+139,Business Strategy & Finance for Founders - Edition 7,edX,Tax Consultant,"Communication,Public Speaking,Time Management",8,Advanced
+140,Technical Writing for Software Engineers - Edition 7,Great Learning,Human Resource Manager,"Data Structures,Algorithms,Machine Learning",7,Advanced
+141,Python for Data Science and AI - Edition 8,edX,Operations Manager,"Data Structures,Algorithms,Machine Learning",11,Intermediate
+142,Mastering Data Structures & Algorithms - Edition 8,SWAYAM,SEO & Content Writer,"React,Angular,Vue.js",13,Intermediate
+143,React - The Complete Guide - Edition 8,Coursera,Journalist & Media Reporter,"Git,Communication,Leadership",14,Intermediate
+144,Machine Learning Specialization - Edition 8,NPTEL,3D Animator & Visual Artist,"3D Modeling,Communication,Creative Writing",16,Intermediate
+145,Deep Learning and Neural Networks - Edition 8,Simplilearn,Patent Attorney,"Communication,Technical Writing,Time Management",14,Beginner
+146,AWS Certified Solutions Architect - Edition 8,SWAYAM,Criminal Defense Lawyer,"Kotlin,Public Speaking,Negotiation",11,Beginner
+147,UI/UX Design Masterclass - Edition 8,Coursera,High School Physics Teacher,"Public Speaking,Problem Solving,Negotiation",11,Beginner
+148,Introduction to Financial Accounting - Edition 8,Great Learning,College Professor (Computer Science),"Problem Solving,Teamwork,Research Methodology",5,Intermediate
+149,Product Management Fundamental Course - Edition 8,Google Career Certificates,Clinical Psychologist,"Communication,Public Speaking,Problem Solving",8,Intermediate
+150,Cybersecurity Threat Detection and Mitigation - Edition 8,Google Career Certificates,Clinical Research Associate,"GraphQL,Technical Writing,Teamwork",10,Beginner
+151,Academic Writing & Research Methodology - Edition 8,Simplilearn,Pharmacist,"Java,Problem Solving,Critical Thinking",8,Intermediate
+152,SQL Masterclass: SQL for Analytics - Edition 8,Udemy,General Medical Practitioner,"Communication,Public Speaking,Technical Writing",7,Intermediate
+153,Full-Stack Web Development Bootcamp - Edition 8,Coursera,Agricultural Officer,"Go,Economics,Public Speaking",24,Beginner
+154,Google Project Management Certificate - Edition 8,SWAYAM,Food Technologist,"Communication,Leadership,Technical Writing",15,Beginner
+155,UPSC Preparation: Indian Polity and History - Edition 8,edX,Environmental Consultant,"Go,Product Management,Business Analysis",39,Intermediate
+156,Corporate Law & Contract Drafting - Edition 8,edX,Social Worker (NGO Manager),"Communication,Public Speaking,Problem Solving",12,Beginner
+157,Embedded C Programming for IoT Devices - Edition 8,edX,Public Policy Analyst,"Go,AWS,Economics",14,Intermediate
+158,Statistical Inference for Researchers - Edition 8,Simplilearn,Data Scientist,"Machine Learning,Statistics,Leadership",6,Advanced
+159,Business Strategy & Finance for Founders - Edition 8,Great Learning,Cybersecurity Consultant,"Product Management,Business Analysis,Financial Accounting",6,Intermediate
+160,Technical Writing for Software Engineers - Edition 8,Coursera,Enterprise Risk Consultant,"Product Management,Business Analysis,Financial Accounting",8,Beginner
+161,Python for Data Science and AI - Edition 9,Simplilearn,User Experience Researcher,"Communication,Technical Writing,Time Management",10,Intermediate
+162,Mastering Data Structures & Algorithms - Edition 9,edX,Solutions Architect,"Product Management,Business Analysis,Financial Accounting",10,Beginner
+163,React - The Complete Guide - Edition 9,Udemy,Robotics Software Engineer,"Computer Vision,Leadership,Time Management",10,Advanced
+164,Machine Learning Specialization - Edition 9,Great Learning,Biomedical Instrumentation Engineer,"Data Structures,Algorithms,Machine Learning",17,Advanced
+165,Deep Learning and Neural Networks - Edition 9,Coursera,Actuarial Analyst,"Statistics,Problem Solving,Time Management",18,Intermediate
+166,AWS Certified Solutions Architect - Edition 9,Great Learning,Financial Consultant,"Data Analytics,Economics,Problem Solving",14,Beginner
+167,UI/UX Design Masterclass - Edition 9,edX,Supply Chain Analyst,"Product Management,Business Analysis,Financial Accounting",7,Beginner
+168,Introduction to Financial Accounting - Edition 9,NPTEL,Brand Strategist,"Marketing,Communication,Public Speaking",4,Intermediate
+169,Product Management Fundamental Course - Edition 9,Google Career Certificates,Media Planner,"Data Structures,Algorithms,Machine Learning",7,Advanced
+170,Cybersecurity Threat Detection and Mitigation - Edition 9,Udemy,Technical Product Owner,"React,Angular,Vue.js",13,Intermediate
+171,Academic Writing & Research Methodology - Edition 9,NPTEL,Creative Director,"Graphic Design,Communication,Leadership",8,Advanced
+172,SQL Masterclass: SQL for Analytics - Edition 9,Simplilearn,IP Litigation Specialist,"Leadership,Public Speaking,Time Management",8,Advanced
+173,Full-Stack Web Development Bootcamp - Edition 9,SWAYAM,Public Prosecutor,"Java,Creative Writing,Negotiation",25,Beginner
+174,Google Project Management Certificate - Edition 9,Udemy,Special Education Teacher,"Communication,Leadership,Problem Solving",16,Advanced
+175,UPSC Preparation: Indian Polity and History - Edition 9,Simplilearn,Data Visualization Specialist,"SQL,Statistics,SQL",44,Intermediate
+176,Corporate Law & Contract Drafting - Edition 9,edX,SRE Engineer,"Data Structures,Algorithms,Machine Learning",16,Intermediate
+177,Embedded C Programming for IoT Devices - Edition 9,NPTEL,VLSI Verification Engineer,"C++,Git,Leadership",13,Beginner
+178,Statistical Inference for Researchers - Edition 9,SWAYAM,Embedded Firmware Developer,"C++,Public Speaking,Creative Writing",11,Beginner
+179,Business Strategy & Finance for Founders - Edition 9,Udemy,IoT Systems Architect,"Leadership,Creative Writing,Critical Thinking",10,Advanced
+180,Technical Writing for Software Engineers - Edition 9,Google Career Certificates,Aerodynamics Analyst,"Technical Writing,Creative Writing,Time Management",4,Advanced
+181,Python for Data Science and AI - Edition 10,Great Learning,Structural Design Engineer,"Deep Learning,Creative Writing,Academic Writing",12,Advanced
+182,Mastering Data Structures & Algorithms - Edition 10,Udemy,Chemical Process Safety Specialist,"Data Structures,React,REST APIs",15,Intermediate
+183,React - The Complete Guide - Edition 10,Google Career Certificates,Quantitative Finance Analyst,"Go,Algorithms,Statistics",9,Beginner
+184,Machine Learning Specialization - Edition 10,SWAYAM,Arbitrage Trader,"Economics,Leadership,Technical Writing",14,Beginner
+185,Deep Learning and Neural Networks - Edition 10,edX,Corporate Treasury Analyst,"Economics,Technical Writing,Time Management",17,Advanced
+186,AWS Certified Solutions Architect - Edition 10,edX,HR Recruitment Specialist,"Product Management,Business Analysis,Financial Accounting",12,Advanced
+187,UI/UX Design Masterclass - Edition 10,SWAYAM,Digital Marketing Specialist,"Data Structures,Algorithms,Machine Learning",10,Intermediate
+188,Introduction to Financial Accounting - Edition 10,Coursera,News Editor,"Communication,Technical Writing,Creative Writing",4,Beginner
+189,Product Management Fundamental Course - Edition 10,SWAYAM,Illustrator & Concept Artist,"Graphic Design,Creative Writing,Critical Thinking",6,Intermediate
+190,Cybersecurity Threat Detection and Mitigation - Edition 10,Great Learning,Regulatory Affairs Specialist,"Go,Creative Writing,Problem Solving",8,Beginner
+191,Academic Writing & Research Methodology - Edition 10,Udemy,Bioinformatics Analyst,"Go,Algorithms,Statistics",3,Advanced
+192,SQL Masterclass: SQL for Analytics - Edition 10,Coursera,Organic Chemist,"Django,Business Strategy,Chemistry Lab",9,Intermediate
+193,Full-Stack Web Development Bootcamp - Edition 10,edX,Academic Counsellor,"Communication,Technical Writing,Creative Writing",27,Intermediate
+194,Google Project Management Certificate - Edition 10,NPTEL,Disaster Relief Coordinator,"Data Structures,Algorithms,Machine Learning",16,Intermediate
+195,UPSC Preparation: Indian Polity and History - Edition 10,Simplilearn,Urban Policy Researcher,"Economics,Communication,Public Speaking",42,Advanced
+196,Corporate Law & Contract Drafting - Edition 10,Coursera,Corporate Social Responsibility Lead,"Go,Product Management,Business Analysis",14,Intermediate
+197,Embedded C Programming for IoT Devices - Edition 10,edX,System Security Architect,"C++,Communication,Problem Solving",13,Beginner
+198,Statistical Inference for Researchers - Edition 10,Coursera,E-commerce Category Manager,"Product Management,Business Analysis,Financial Accounting",11,Advanced
+199,Business Strategy & Finance for Founders - Edition 10,Google Career Certificates,Speech & Language Therapist,"Data Structures,Algorithms,Machine Learning",11,Advanced
+200,Technical Writing for Software Engineers - Edition 10,NPTEL,Horticulturist,"Leadership,Creative Writing,Problem Solving",5,Advanced
+201,Python for Data Science and AI - Edition 11,NPTEL,Software Engineer,"Data Structures,Algorithms,Machine Learning",11,Intermediate
+202,Mastering Data Structures & Algorithms - Edition 11,Simplilearn,AI/ML Engineer,"Data Structures,Algorithms,Machine Learning",11,Advanced
+203,React - The Complete Guide - Edition 11,Great Learning,Data Analyst,"Statistics,Product Management,Business Analysis",8,Intermediate
+204,Machine Learning Specialization - Edition 11,Simplilearn,Product Manager,"Product Management,Business Analysis,Financial Accounting",14,Beginner
+205,Deep Learning and Neural Networks - Edition 11,NPTEL,Cybersecurity Analyst,"Node.js,Communication,Public Speaking",17,Beginner
+206,AWS Certified Solutions Architect - Edition 11,Great Learning,UI/UX Designer,"HTML,CSS,React",14,Beginner
+207,UI/UX Design Masterclass - Edition 11,Udemy,Chartered Accountant,"Product Management,Business Analysis,Financial Accounting",9,Beginner
+208,Introduction to Financial Accounting - Edition 11,Simplilearn,Civil Servant (IAS/IPS),"Go,Data Structures,Algorithms",6,Advanced
+209,Product Management Fundamental Course - Edition 11,NPTEL,Management Consultant,"Product Management,Business Analysis,Financial Accounting",4,Intermediate
+210,Cybersecurity Threat Detection and Mitigation - Edition 11,Simplilearn,Biotechnology Researcher,"Leadership,Research Methodology,Academic Writing",13,Advanced
+211,Academic Writing & Research Methodology - Edition 11,NPTEL,Cloud Architect,"Product Management,Business Analysis,Financial Accounting",8,Advanced
+212,SQL Masterclass: SQL for Analytics - Edition 11,Udemy,DevOps Engineer,"Creative Writing,Time Management,Negotiation",7,Intermediate
+213,Full-Stack Web Development Bootcamp - Edition 11,NPTEL,Investment Banker,"Go,Data Structures,Algorithms",27,Intermediate
+214,Google Project Management Certificate - Edition 11,edX,Marketing Manager,"Marketing,Economics,Communication",13,Advanced
+215,UPSC Preparation: Indian Polity and History - Edition 11,edX,Corporate Lawyer,"Product Management,Business Analysis,Financial Accounting",41,Intermediate
+216,Corporate Law & Contract Drafting - Edition 11,Udemy,Defense Officer (Army/Navy/Air Force),"Data Structures,Algorithms,Machine Learning",11,Intermediate
+217,Embedded C Programming for IoT Devices - Edition 11,Google Career Certificates,Entrepreneur,"Product Management,Business Analysis,Financial Accounting",14,Beginner
+218,Statistical Inference for Researchers - Edition 11,Coursera,Research Scientist,"Negotiation,Research Methodology,Academic Writing",7,Intermediate
+219,Business Strategy & Finance for Founders - Edition 11,edX,Public Relations Specialist,"Communication,Leadership,Time Management",12,Beginner
+220,Technical Writing for Software Engineers - Edition 11,SWAYAM,Data Engineer,"Leadership,Technical Writing,Problem Solving",7,Advanced
+221,Python for Data Science and AI - Edition 12,Google Career Certificates,Frontend Developer,"Java,JavaScript,HTML",12,Beginner
+222,Mastering Data Structures & Algorithms - Edition 12,NPTEL,Backend Developer,"Python,Java,Node.js",16,Intermediate
+223,React - The Complete Guide - Edition 12,Simplilearn,Full Stack Developer,"HTML,CSS,React",12,Intermediate
+224,Machine Learning Specialization - Edition 12,Simplilearn,Mobile App Developer,"Communication,Public Speaking,Mathematics",19,Intermediate
+225,Deep Learning and Neural Networks - Edition 12,NPTEL,Database Administrator,"Data Structures,Algorithms,Machine Learning",13,Beginner
+226,AWS Certified Solutions Architect - Edition 12,NPTEL,Game Developer,"3D Modeling,Communication,Public Speaking",10,Beginner
+227,UI/UX Design Masterclass - Edition 12,SWAYAM,QA Automation Engineer,"Rust,Creative Writing,Negotiation",7,Beginner
+228,Introduction to Financial Accounting - Edition 12,Google Career Certificates,Network Security Engineer,"Django,Technical Writing,Biotechnology",4,Advanced
+229,Product Management Fundamental Course - Edition 12,Google Career Certificates,Cloud DevOps Architect,"Natural Language Processing,Leadership,Teamwork",10,Beginner
+230,Cybersecurity Threat Detection and Mitigation - Edition 12,SWAYAM,Systems Administrator,"Data Structures,Algorithms,Machine Learning",13,Intermediate
+231,Academic Writing & Research Methodology - Edition 12,SWAYAM,VLSI Design Engineer,"Leadership,Technical Writing,Mathematics",5,Advanced
+232,SQL Masterclass: SQL for Analytics - Edition 12,edX,Embedded Systems Engineer,"Vue.js,Creative Writing,Time Management",5,Beginner
+233,Full-Stack Web Development Bootcamp - Edition 12,Great Learning,Aerospace Engineer,"Data Structures,Algorithms,Machine Learning",27,Intermediate
+234,Google Project Management Certificate - Edition 12,Great Learning,Mechanical Design Engineer,"Graphic Design,SEO,Mathematics",15,Beginner
+235,UPSC Preparation: Indian Polity and History - Edition 12,Coursera,Civil Site Engineer,"Leadership,Technical Writing,Creative Writing",41,Advanced
+236,Corporate Law & Contract Drafting - Edition 12,Google Career Certificates,Chemical Engineer,"Communication,Leadership,Technical Writing",14,Intermediate
+237,Embedded C Programming for IoT Devices - Edition 12,Great Learning,Financial Risk Analyst,"Statistics,Economics,Leadership",9,Intermediate
+238,Statistical Inference for Researchers - Edition 12,SWAYAM,Stock Trader / Portfolio Manager,"Statistics,Economics,Public Speaking",6,Beginner
+239,Business Strategy & Finance for Founders - Edition 12,edX,Tax Consultant,"Communication,Public Speaking,Time Management",6,Intermediate
+240,Technical Writing for Software Engineers - Edition 12,SWAYAM,Human Resource Manager,"Data Structures,Algorithms,Machine Learning",5,Beginner
+241,Python for Data Science and AI - Edition 13,Coursera,Operations Manager,"Data Structures,Algorithms,Machine Learning",9,Advanced
+242,Mastering Data Structures & Algorithms - Edition 13,Simplilearn,SEO & Content Writer,"React,Angular,Vue.js",14,Advanced
+243,React - The Complete Guide - Edition 13,Simplilearn,Journalist & Media Reporter,"Git,Communication,Leadership",10,Beginner
+244,Machine Learning Specialization - Edition 13,Udemy,3D Animator & Visual Artist,"3D Modeling,Communication,Creative Writing",15,Intermediate
+245,Deep Learning and Neural Networks - Edition 13,SWAYAM,Patent Attorney,"Communication,Technical Writing,Time Management",18,Intermediate
+246,AWS Certified Solutions Architect - Edition 13,Coursera,Criminal Defense Lawyer,"Kotlin,Public Speaking,Negotiation",13,Beginner
+247,UI/UX Design Masterclass - Edition 13,Udemy,High School Physics Teacher,"Public Speaking,Problem Solving,Negotiation",7,Advanced
+248,Introduction to Financial Accounting - Edition 13,Simplilearn,College Professor (Computer Science),"Problem Solving,Teamwork,Research Methodology",6,Advanced
+249,Product Management Fundamental Course - Edition 13,edX,Clinical Psychologist,"Communication,Public Speaking,Problem Solving",8,Intermediate
+250,Cybersecurity Threat Detection and Mitigation - Edition 13,edX,Clinical Research Associate,"GraphQL,Technical Writing,Teamwork",12,Advanced
+251,Academic Writing & Research Methodology - Edition 13,Simplilearn,Pharmacist,"Java,Problem Solving,Critical Thinking",4,Intermediate
+252,SQL Masterclass: SQL for Analytics - Edition 13,edX,General Medical Practitioner,"Communication,Public Speaking,Technical Writing",10,Beginner
+253,Full-Stack Web Development Bootcamp - Edition 13,Coursera,Agricultural Officer,"Go,Economics,Public Speaking",25,Beginner
+254,Google Project Management Certificate - Edition 13,SWAYAM,Food Technologist,"Communication,Leadership,Technical Writing",12,Beginner
+255,UPSC Preparation: Indian Polity and History - Edition 13,Coursera,Environmental Consultant,"Go,Product Management,Business Analysis",41,Beginner
+256,Corporate Law & Contract Drafting - Edition 13,Google Career Certificates,Social Worker (NGO Manager),"Communication,Public Speaking,Problem Solving",13,Advanced
+257,Embedded C Programming for IoT Devices - Edition 13,NPTEL,Public Policy Analyst,"Go,AWS,Economics",14,Advanced
+258,Statistical Inference for Researchers - Edition 13,NPTEL,Data Scientist,"Machine Learning,Statistics,Leadership",12,Advanced
+259,Business Strategy & Finance for Founders - Edition 13,edX,Cybersecurity Consultant,"Product Management,Business Analysis,Financial Accounting",11,Beginner
+260,Technical Writing for Software Engineers - Edition 13,Great Learning,Enterprise Risk Consultant,"Product Management,Business Analysis,Financial Accounting",4,Advanced
+261,Python for Data Science and AI - Edition 14,Udemy,User Experience Researcher,"Communication,Technical Writing,Time Management",12,Beginner
+262,Mastering Data Structures & Algorithms - Edition 14,Google Career Certificates,Solutions Architect,"Product Management,Business Analysis,Financial Accounting",14,Beginner
+263,React - The Complete Guide - Edition 14,Great Learning,Robotics Software Engineer,"Computer Vision,Leadership,Time Management",11,Advanced
+264,Machine Learning Specialization - Edition 14,Great Learning,Biomedical Instrumentation Engineer,"Data Structures,Algorithms,Machine Learning",19,Beginner
+265,Deep Learning and Neural Networks - Edition 14,SWAYAM,Actuarial Analyst,"Statistics,Problem Solving,Time Management",14,Beginner
+266,AWS Certified Solutions Architect - Edition 14,edX,Financial Consultant,"Data Analytics,Economics,Problem Solving",13,Beginner
+267,UI/UX Design Masterclass - Edition 14,Simplilearn,Supply Chain Analyst,"Product Management,Business Analysis,Financial Accounting",6,Beginner
+268,Introduction to Financial Accounting - Edition 14,NPTEL,Brand Strategist,"Marketing,Communication,Public Speaking",9,Intermediate
+269,Product Management Fundamental Course - Edition 14,Udemy,Media Planner,"Data Structures,Algorithms,Machine Learning",7,Intermediate
+270,Cybersecurity Threat Detection and Mitigation - Edition 14,Coursera,Technical Product Owner,"React,Angular,Vue.js",12,Beginner
+271,Academic Writing & Research Methodology - Edition 14,NPTEL,Creative Director,"Graphic Design,Communication,Leadership",8,Beginner
+272,SQL Masterclass: SQL for Analytics - Edition 14,Simplilearn,IP Litigation Specialist,"Leadership,Public Speaking,Time Management",7,Beginner
+273,Full-Stack Web Development Bootcamp - Edition 14,edX,Public Prosecutor,"Java,Creative Writing,Negotiation",23,Intermediate
+274,Google Project Management Certificate - Edition 14,NPTEL,Special Education Teacher,"Communication,Leadership,Problem Solving",11,Advanced
+275,UPSC Preparation: Indian Polity and History - Edition 14,SWAYAM,Data Visualization Specialist,"SQL,Statistics,SQL",41,Advanced
+276,Corporate Law & Contract Drafting - Edition 14,NPTEL,SRE Engineer,"Data Structures,Algorithms,Machine Learning",16,Beginner
+277,Embedded C Programming for IoT Devices - Edition 14,NPTEL,VLSI Verification Engineer,"C++,Git,Leadership",11,Advanced
+278,Statistical Inference for Researchers - Edition 14,Simplilearn,Embedded Firmware Developer,"C++,Public Speaking,Creative Writing",11,Advanced
+279,Business Strategy & Finance for Founders - Edition 14,SWAYAM,IoT Systems Architect,"Leadership,Creative Writing,Critical Thinking",12,Intermediate
+280,Technical Writing for Software Engineers - Edition 14,Simplilearn,Aerodynamics Analyst,"Technical Writing,Creative Writing,Time Management",4,Intermediate
+281,Python for Data Science and AI - Edition 15,SWAYAM,Structural Design Engineer,"Deep Learning,Creative Writing,Academic Writing",8,Beginner
+282,Mastering Data Structures & Algorithms - Edition 15,Udemy,Chemical Process Safety Specialist,"Data Structures,React,REST APIs",16,Beginner
+283,React - The Complete Guide - Edition 15,Google Career Certificates,Quantitative Finance Analyst,"Go,Algorithms,Statistics",13,Beginner
+284,Machine Learning Specialization - Edition 15,Google Career Certificates,Arbitrage Trader,"Economics,Leadership,Technical Writing",15,Beginner
+285,Deep Learning and Neural Networks - Edition 15,Simplilearn,Corporate Treasury Analyst,"Economics,Technical Writing,Time Management",14,Intermediate
+286,AWS Certified Solutions Architect - Edition 15,Udemy,HR Recruitment Specialist,"Product Management,Business Analysis,Financial Accounting",15,Advanced
+287,UI/UX Design Masterclass - Edition 15,NPTEL,Digital Marketing Specialist,"Data Structures,Algorithms,Machine Learning",9,Advanced
+288,Introduction to Financial Accounting - Edition 15,Google Career Certificates,News Editor,"Communication,Technical Writing,Creative Writing",8,Beginner
+289,Product Management Fundamental Course - Edition 15,SWAYAM,Illustrator & Concept Artist,"Graphic Design,Creative Writing,Critical Thinking",4,Advanced
+290,Cybersecurity Threat Detection and Mitigation - Edition 15,SWAYAM,Regulatory Affairs Specialist,"Go,Creative Writing,Problem Solving",12,Beginner
+291,Academic Writing & Research Methodology - Edition 15,Simplilearn,Bioinformatics Analyst,"Go,Algorithms,Statistics",8,Advanced
+292,SQL Masterclass: SQL for Analytics - Edition 15,Coursera,Organic Chemist,"Django,Business Strategy,Chemistry Lab",5,Advanced
+293,Full-Stack Web Development Bootcamp - Edition 15,Simplilearn,Academic Counsellor,"Communication,Technical Writing,Creative Writing",26,Advanced
+294,Google Project Management Certificate - Edition 15,Simplilearn,Disaster Relief Coordinator,"Data Structures,Algorithms,Machine Learning",10,Advanced
+295,UPSC Preparation: Indian Polity and History - Edition 15,Simplilearn,Urban Policy Researcher,"Economics,Communication,Public Speaking",42,Beginner
+296,Corporate Law & Contract Drafting - Edition 15,SWAYAM,Corporate Social Responsibility Lead,"Go,Product Management,Business Analysis",15,Advanced
+297,Embedded C Programming for IoT Devices - Edition 15,Udemy,System Security Architect,"C++,Communication,Problem Solving",11,Advanced
+298,Statistical Inference for Researchers - Edition 15,SWAYAM,E-commerce Category Manager,"Product Management,Business Analysis,Financial Accounting",8,Intermediate
+299,Business Strategy & Finance for Founders - Edition 15,Udemy,Speech & Language Therapist,"Data Structures,Algorithms,Machine Learning",10,Beginner
+300,Technical Writing for Software Engineers - Edition 15,SWAYAM,Horticulturist,"Leadership,Creative Writing,Problem Solving",8,Intermediate
+301,Python for Data Science and AI - Edition 16,edX,Software Engineer,"Data Structures,Algorithms,Machine Learning",11,Intermediate
+302,Mastering Data Structures & Algorithms - Edition 16,Coursera,AI/ML Engineer,"Data Structures,Algorithms,Machine Learning",10,Beginner
+303,React - The Complete Guide - Edition 16,Simplilearn,Data Analyst,"Statistics,Product Management,Business Analysis",9,Advanced
+304,Machine Learning Specialization - Edition 16,Great Learning,Product Manager,"Product Management,Business Analysis,Financial Accounting",20,Advanced
+305,Deep Learning and Neural Networks - Edition 16,Google Career Certificates,Cybersecurity Analyst,"Node.js,Communication,Public Speaking",16,Advanced
+306,AWS Certified Solutions Architect - Edition 16,edX,UI/UX Designer,"HTML,CSS,React",10,Intermediate
+307,UI/UX Design Masterclass - Edition 16,Simplilearn,Chartered Accountant,"Product Management,Business Analysis,Financial Accounting",9,Intermediate
+308,Introduction to Financial Accounting - Edition 16,Google Career Certificates,Civil Servant (IAS/IPS),"Go,Data Structures,Algorithms",4,Beginner
+309,Product Management Fundamental Course - Edition 16,edX,Management Consultant,"Product Management,Business Analysis,Financial Accounting",8,Intermediate
+310,Cybersecurity Threat Detection and Mitigation - Edition 16,SWAYAM,Biotechnology Researcher,"Leadership,Research Methodology,Academic Writing",9,Intermediate
+311,Academic Writing & Research Methodology - Edition 16,edX,Cloud Architect,"Product Management,Business Analysis,Financial Accounting",5,Beginner
+312,SQL Masterclass: SQL for Analytics - Edition 16,Google Career Certificates,DevOps Engineer,"Creative Writing,Time Management,Negotiation",8,Advanced
+313,Full-Stack Web Development Bootcamp - Edition 16,edX,Investment Banker,"Go,Data Structures,Algorithms",26,Intermediate
+314,Google Project Management Certificate - Edition 16,Google Career Certificates,Marketing Manager,"Marketing,Economics,Communication",14,Beginner
+315,UPSC Preparation: Indian Polity and History - Edition 16,SWAYAM,Corporate Lawyer,"Product Management,Business Analysis,Financial Accounting",40,Advanced
+316,Corporate Law & Contract Drafting - Edition 16,edX,Defense Officer (Army/Navy/Air Force),"Data Structures,Algorithms,Machine Learning",11,Intermediate
+317,Embedded C Programming for IoT Devices - Edition 16,Great Learning,Entrepreneur,"Product Management,Business Analysis,Financial Accounting",12,Beginner
+318,Statistical Inference for Researchers - Edition 16,Simplilearn,Research Scientist,"Negotiation,Research Methodology,Academic Writing",10,Beginner
+319,Business Strategy & Finance for Founders - Edition 16,Simplilearn,Public Relations Specialist,"Communication,Leadership,Time Management",11,Beginner
+320,Technical Writing for Software Engineers - Edition 16,NPTEL,Data Engineer,"Leadership,Technical Writing,Problem Solving",2,Intermediate
+321,Python for Data Science and AI - Edition 17,SWAYAM,Frontend Developer,"Java,JavaScript,HTML",12,Intermediate
+322,Mastering Data Structures & Algorithms - Edition 17,edX,Backend Developer,"Python,Java,Node.js",12,Beginner
+323,React - The Complete Guide - Edition 17,SWAYAM,Full Stack Developer,"HTML,CSS,React",8,Beginner
+324,Machine Learning Specialization - Edition 17,Udemy,Mobile App Developer,"Communication,Public Speaking,Mathematics",20,Advanced
+325,Deep Learning and Neural Networks - Edition 17,Google Career Certificates,Database Administrator,"Data Structures,Algorithms,Machine Learning",12,Advanced
+326,AWS Certified Solutions Architect - Edition 17,NPTEL,Game Developer,"3D Modeling,Communication,Public Speaking",16,Intermediate
+327,UI/UX Design Masterclass - Edition 17,Simplilearn,QA Automation Engineer,"Rust,Creative Writing,Negotiation",12,Beginner
+328,Introduction to Financial Accounting - Edition 17,Great Learning,Network Security Engineer,"Django,Technical Writing,Biotechnology",6,Advanced
+329,Product Management Fundamental Course - Edition 17,SWAYAM,Cloud DevOps Architect,"Natural Language Processing,Leadership,Teamwork",10,Intermediate
+330,Cybersecurity Threat Detection and Mitigation - Edition 17,Coursera,Systems Administrator,"Data Structures,Algorithms,Machine Learning",9,Advanced
+331,Academic Writing & Research Methodology - Edition 17,Great Learning,VLSI Design Engineer,"Leadership,Technical Writing,Mathematics",5,Beginner
+332,SQL Masterclass: SQL for Analytics - Edition 17,Udemy,Embedded Systems Engineer,"Vue.js,Creative Writing,Time Management",9,Beginner
+333,Full-Stack Web Development Bootcamp - Edition 17,Great Learning,Aerospace Engineer,"Data Structures,Algorithms,Machine Learning",28,Advanced
+334,Google Project Management Certificate - Edition 17,NPTEL,Mechanical Design Engineer,"Graphic Design,SEO,Mathematics",12,Advanced
+335,UPSC Preparation: Indian Polity and History - Edition 17,SWAYAM,Civil Site Engineer,"Leadership,Technical Writing,Creative Writing",41,Advanced
+336,Corporate Law & Contract Drafting - Edition 17,NPTEL,Chemical Engineer,"Communication,Leadership,Technical Writing",12,Beginner
+337,Embedded C Programming for IoT Devices - Edition 17,NPTEL,Financial Risk Analyst,"Statistics,Economics,Leadership",10,Beginner
+338,Statistical Inference for Researchers - Edition 17,edX,Stock Trader / Portfolio Manager,"Statistics,Economics,Public Speaking",10,Advanced
+339,Business Strategy & Finance for Founders - Edition 17,NPTEL,Tax Consultant,"Communication,Public Speaking,Time Management",12,Advanced
+340,Technical Writing for Software Engineers - Edition 17,SWAYAM,Human Resource Manager,"Data Structures,Algorithms,Machine Learning",7,Advanced
+341,Python for Data Science and AI - Edition 18,Coursera,Operations Manager,"Data Structures,Algorithms,Machine Learning",11,Intermediate
+342,Mastering Data Structures & Algorithms - Edition 18,Simplilearn,SEO & Content Writer,"React,Angular,Vue.js",13,Intermediate
+343,React - The Complete Guide - Edition 18,Udemy,Journalist & Media Reporter,"Git,Communication,Leadership",12,Beginner
+344,Machine Learning Specialization - Edition 18,Great Learning,3D Animator & Visual Artist,"3D Modeling,Communication,Creative Writing",14,Beginner
+345,Deep Learning and Neural Networks - Edition 18,Coursera,Patent Attorney,"Communication,Technical Writing,Time Management",13,Intermediate
+346,AWS Certified Solutions Architect - Edition 18,Udemy,Criminal Defense Lawyer,"Kotlin,Public Speaking,Negotiation",11,Advanced
+347,UI/UX Design Masterclass - Edition 18,Udemy,High School Physics Teacher,"Public Speaking,Problem Solving,Negotiation",10,Advanced
+348,Introduction to Financial Accounting - Edition 18,Google Career Certificates,College Professor (Computer Science),"Problem Solving,Teamwork,Research Methodology",6,Advanced
+349,Product Management Fundamental Course - Edition 18,SWAYAM,Clinical Psychologist,"Communication,Public Speaking,Problem Solving",8,Intermediate
+350,Cybersecurity Threat Detection and Mitigation - Edition 18,edX,Clinical Research Associate,"GraphQL,Technical Writing,Teamwork",10,Intermediate
+351,Academic Writing & Research Methodology - Edition 18,edX,Pharmacist,"Java,Problem Solving,Critical Thinking",3,Advanced
+352,SQL Masterclass: SQL for Analytics - Edition 18,Google Career Certificates,General Medical Practitioner,"Communication,Public Speaking,Technical Writing",10,Advanced
+353,Full-Stack Web Development Bootcamp - Edition 18,Udemy,Agricultural Officer,"Go,Economics,Public Speaking",23,Beginner
+354,Google Project Management Certificate - Edition 18,edX,Food Technologist,"Communication,Leadership,Technical Writing",13,Intermediate
+355,UPSC Preparation: Indian Polity and History - Edition 18,Coursera,Environmental Consultant,"Go,Product Management,Business Analysis",41,Beginner
+356,Corporate Law & Contract Drafting - Edition 18,Simplilearn,Social Worker (NGO Manager),"Communication,Public Speaking,Problem Solving",14,Advanced
+357,Embedded C Programming for IoT Devices - Edition 18,NPTEL,Public Policy Analyst,"Go,AWS,Economics",8,Intermediate
+358,Statistical Inference for Researchers - Edition 18,Simplilearn,Data Scientist,"Machine Learning,Statistics,Leadership",10,Intermediate
+359,Business Strategy & Finance for Founders - Edition 18,SWAYAM,Cybersecurity Consultant,"Product Management,Business Analysis,Financial Accounting",10,Intermediate
+360,Technical Writing for Software Engineers - Edition 18,Coursera,Enterprise Risk Consultant,"Product Management,Business Analysis,Financial Accounting",7,Beginner
+361,Python for Data Science and AI - Edition 19,NPTEL,User Experience Researcher,"Communication,Technical Writing,Time Management",6,Intermediate
+362,Mastering Data Structures & Algorithms - Edition 19,Great Learning,Solutions Architect,"Product Management,Business Analysis,Financial Accounting",14,Intermediate
+363,React - The Complete Guide - Edition 19,NPTEL,Robotics Software Engineer,"Computer Vision,Leadership,Time Management",14,Beginner
+364,Machine Learning Specialization - Edition 19,Google Career Certificates,Biomedical Instrumentation Engineer,"Data Structures,Algorithms,Machine Learning",18,Advanced
+365,Deep Learning and Neural Networks - Edition 19,NPTEL,Actuarial Analyst,"Statistics,Problem Solving,Time Management",17,Advanced
+366,AWS Certified Solutions Architect - Edition 19,Simplilearn,Financial Consultant,"Data Analytics,Economics,Problem Solving",16,Beginner
+367,UI/UX Design Masterclass - Edition 19,Coursera,Supply Chain Analyst,"Product Management,Business Analysis,Financial Accounting",8,Intermediate
+368,Introduction to Financial Accounting - Edition 19,Udemy,Brand Strategist,"Marketing,Communication,Public Speaking",9,Beginner
+369,Product Management Fundamental Course - Edition 19,Google Career Certificates,Media Planner,"Data Structures,Algorithms,Machine Learning",7,Beginner
+370,Cybersecurity Threat Detection and Mitigation - Edition 19,Google Career Certificates,Technical Product Owner,"React,Angular,Vue.js",10,Intermediate
+371,Academic Writing & Research Methodology - Edition 19,Udemy,Creative Director,"Graphic Design,Communication,Leadership",7,Advanced
+372,SQL Masterclass: SQL for Analytics - Edition 19,Google Career Certificates,IP Litigation Specialist,"Leadership,Public Speaking,Time Management",4,Intermediate
+373,Full-Stack Web Development Bootcamp - Edition 19,Google Career Certificates,Public Prosecutor,"Java,Creative Writing,Negotiation",26,Beginner
+374,Google Project Management Certificate - Edition 19,Great Learning,Special Education Teacher,"Communication,Leadership,Problem Solving",10,Advanced
+375,UPSC Preparation: Indian Polity and History - Edition 19,edX,Data Visualization Specialist,"SQL,Statistics,SQL",41,Beginner
+376,Corporate Law & Contract Drafting - Edition 19,Google Career Certificates,SRE Engineer,"Data Structures,Algorithms,Machine Learning",12,Advanced
+377,Embedded C Programming for IoT Devices - Edition 19,Udemy,VLSI Verification Engineer,"C++,Git,Leadership",11,Advanced
+378,Statistical Inference for Researchers - Edition 19,Simplilearn,Embedded Firmware Developer,"C++,Public Speaking,Creative Writing",10,Beginner
+379,Business Strategy & Finance for Founders - Edition 19,edX,IoT Systems Architect,"Leadership,Creative Writing,Critical Thinking",8,Advanced
+380,Technical Writing for Software Engineers - Edition 19,Udemy,Aerodynamics Analyst,"Technical Writing,Creative Writing,Time Management",4,Intermediate
+381,Python for Data Science and AI - Edition 20,NPTEL,Structural Design Engineer,"Deep Learning,Creative Writing,Academic Writing",11,Intermediate
+382,Mastering Data Structures & Algorithms - Edition 20,Udemy,Chemical Process Safety Specialist,"Data Structures,React,REST APIs",12,Advanced
+383,React - The Complete Guide - Edition 20,Coursera,Quantitative Finance Analyst,"Go,Algorithms,Statistics",14,Advanced
+384,Machine Learning Specialization - Edition 20,edX,Arbitrage Trader,"Economics,Leadership,Technical Writing",17,Intermediate
+385,Deep Learning and Neural Networks - Edition 20,Udemy,Corporate Treasury Analyst,"Economics,Technical Writing,Time Management",17,Beginner
+386,AWS Certified Solutions Architect - Edition 20,Coursera,HR Recruitment Specialist,"Product Management,Business Analysis,Financial Accounting",11,Beginner
+387,UI/UX Design Masterclass - Edition 20,Great Learning,Digital Marketing Specialist,"Data Structures,Algorithms,Machine Learning",7,Advanced
+388,Introduction to Financial Accounting - Edition 20,Simplilearn,News Editor,"Communication,Technical Writing,Creative Writing",9,Advanced
+389,Product Management Fundamental Course - Edition 20,Google Career Certificates,Illustrator & Concept Artist,"Graphic Design,Creative Writing,Critical Thinking",10,Beginner
+390,Cybersecurity Threat Detection and Mitigation - Edition 20,Coursera,Regulatory Affairs Specialist,"Go,Creative Writing,Problem Solving",8,Advanced
+391,Academic Writing & Research Methodology - Edition 20,Coursera,Bioinformatics Analyst,"Go,Algorithms,Statistics",5,Beginner
+392,SQL Masterclass: SQL for Analytics - Edition 20,Simplilearn,Organic Chemist,"Django,Business Strategy,Chemistry Lab",5,Advanced
+393,Full-Stack Web Development Bootcamp - Edition 20,Coursera,Academic Counsellor,"Communication,Technical Writing,Creative Writing",24,Intermediate
+394,Google Project Management Certificate - Edition 20,Great Learning,Disaster Relief Coordinator,"Data Structures,Algorithms,Machine Learning",15,Beginner
+395,UPSC Preparation: Indian Polity and History - Edition 20,NPTEL,Urban Policy Researcher,"Economics,Communication,Public Speaking",43,Beginner
+396,Corporate Law & Contract Drafting - Edition 20,Udemy,Corporate Social Responsibility Lead,"Go,Product Management,Business Analysis",16,Beginner
+397,Embedded C Programming for IoT Devices - Edition 20,edX,System Security Architect,"C++,Communication,Problem Solving",12,Intermediate
+398,Statistical Inference for Researchers - Edition 20,Coursera,E-commerce Category Manager,"Product Management,Business Analysis,Financial Accounting",10,Intermediate
+399,Business Strategy & Finance for Founders - Edition 20,Coursera,Speech & Language Therapist,"Data Structures,Algorithms,Machine Learning",6,Advanced
+400,Technical Writing for Software Engineers - Edition 20,SWAYAM,Horticulturist,"Leadership,Creative Writing,Problem Solving",2,Advanced
+401,Python for Data Science and AI - Edition 21,NPTEL,Software Engineer,"Data Structures,Algorithms,Machine Learning",10,Advanced
+402,Mastering Data Structures & Algorithms - Edition 21,Udemy,AI/ML Engineer,"Data Structures,Algorithms,Machine Learning",15,Advanced
+403,React - The Complete Guide - Edition 21,Great Learning,Data Analyst,"Statistics,Product Management,Business Analysis",11,Beginner
+404,Machine Learning Specialization - Edition 21,Google Career Certificates,Product Manager,"Product Management,Business Analysis,Financial Accounting",15,Beginner
+405,Deep Learning and Neural Networks - Edition 21,Coursera,Cybersecurity Analyst,"Node.js,Communication,Public Speaking",14,Advanced
+406,AWS Certified Solutions Architect - Edition 21,Coursera,UI/UX Designer,"HTML,CSS,React",13,Advanced
+407,UI/UX Design Masterclass - Edition 21,SWAYAM,Chartered Accountant,"Product Management,Business Analysis,Financial Accounting",12,Intermediate
+408,Introduction to Financial Accounting - Edition 21,Google Career Certificates,Civil Servant (IAS/IPS),"Go,Data Structures,Algorithms",10,Beginner
+409,Product Management Fundamental Course - Edition 21,edX,Management Consultant,"Product Management,Business Analysis,Financial Accounting",9,Advanced
+410,Cybersecurity Threat Detection and Mitigation - Edition 21,Great Learning,Biotechnology Researcher,"Leadership,Research Methodology,Academic Writing",12,Intermediate
+411,Academic Writing & Research Methodology - Edition 21,edX,Cloud Architect,"Product Management,Business Analysis,Financial Accounting",6,Intermediate
+412,SQL Masterclass: SQL for Analytics - Edition 21,SWAYAM,DevOps Engineer,"Creative Writing,Time Management,Negotiation",8,Intermediate
+413,Full-Stack Web Development Bootcamp - Edition 21,Simplilearn,Investment Banker,"Go,Data Structures,Algorithms",26,Advanced
+414,Google Project Management Certificate - Edition 21,edX,Marketing Manager,"Marketing,Economics,Communication",10,Beginner
+415,UPSC Preparation: Indian Polity and History - Edition 21,Great Learning,Corporate Lawyer,"Product Management,Business Analysis,Financial Accounting",43,Advanced
+416,Corporate Law & Contract Drafting - Edition 21,Coursera,Defense Officer (Army/Navy/Air Force),"Data Structures,Algorithms,Machine Learning",12,Beginner
+417,Embedded C Programming for IoT Devices - Edition 21,SWAYAM,Entrepreneur,"Product Management,Business Analysis,Financial Accounting",8,Advanced
+418,Statistical Inference for Researchers - Edition 21,Coursera,Research Scientist,"Negotiation,Research Methodology,Academic Writing",12,Intermediate
+419,Business Strategy & Finance for Founders - Edition 21,SWAYAM,Public Relations Specialist,"Communication,Leadership,Time Management",10,Intermediate
+420,Technical Writing for Software Engineers - Edition 21,Google Career Certificates,Data Engineer,"Leadership,Technical Writing,Problem Solving",8,Intermediate
+421,Python for Data Science and AI - Edition 22,SWAYAM,Frontend Developer,"Java,JavaScript,HTML",6,Beginner
+422,Mastering Data Structures & Algorithms - Edition 22,SWAYAM,Backend Developer,"Python,Java,Node.js",16,Advanced
+423,React - The Complete Guide - Edition 22,Google Career Certificates,Full Stack Developer,"HTML,CSS,React",12,Intermediate
+424,Machine Learning Specialization - Edition 22,Udemy,Mobile App Developer,"Communication,Public Speaking,Mathematics",19,Beginner
+425,Deep Learning and Neural Networks - Edition 22,Google Career Certificates,Database Administrator,"Data Structures,Algorithms,Machine Learning",16,Beginner
+426,AWS Certified Solutions Architect - Edition 22,Great Learning,Game Developer,"3D Modeling,Communication,Public Speaking",13,Advanced
+427,UI/UX Design Masterclass - Edition 22,Great Learning,QA Automation Engineer,"Rust,Creative Writing,Negotiation",12,Beginner
+428,Introduction to Financial Accounting - Edition 22,SWAYAM,Network Security Engineer,"Django,Technical Writing,Biotechnology",6,Intermediate
+429,Product Management Fundamental Course - Edition 22,Simplilearn,Cloud DevOps Architect,"Natural Language Processing,Leadership,Teamwork",10,Intermediate
+430,Cybersecurity Threat Detection and Mitigation - Edition 22,NPTEL,Systems Administrator,"Data Structures,Algorithms,Machine Learning",8,Advanced
+431,Academic Writing & Research Methodology - Edition 22,Great Learning,VLSI Design Engineer,"Leadership,Technical Writing,Mathematics",2,Advanced
+432,SQL Masterclass: SQL for Analytics - Edition 22,Google Career Certificates,Embedded Systems Engineer,"Vue.js,Creative Writing,Time Management",10,Intermediate
+433,Full-Stack Web Development Bootcamp - Edition 22,edX,Aerospace Engineer,"Data Structures,Algorithms,Machine Learning",23,Intermediate
+434,Google Project Management Certificate - Edition 22,Google Career Certificates,Mechanical Design Engineer,"Graphic Design,SEO,Mathematics",10,Advanced
+435,UPSC Preparation: Indian Polity and History - Edition 22,Simplilearn,Civil Site Engineer,"Leadership,Technical Writing,Creative Writing",43,Advanced
+436,Corporate Law & Contract Drafting - Edition 22,Google Career Certificates,Chemical Engineer,"Communication,Leadership,Technical Writing",15,Beginner
+437,Embedded C Programming for IoT Devices - Edition 22,Coursera,Financial Risk Analyst,"Statistics,Economics,Leadership",8,Advanced
+438,Statistical Inference for Researchers - Edition 22,NPTEL,Stock Trader / Portfolio Manager,"Statistics,Economics,Public Speaking",11,Beginner
+439,Business Strategy & Finance for Founders - Edition 22,Coursera,Tax Consultant,"Communication,Public Speaking,Time Management",8,Intermediate
+440,Technical Writing for Software Engineers - Edition 22,NPTEL,Human Resource Manager,"Data Structures,Algorithms,Machine Learning",2,Intermediate
+441,Python for Data Science and AI - Edition 23,SWAYAM,Operations Manager,"Data Structures,Algorithms,Machine Learning",9,Intermediate
+442,Mastering Data Structures & Algorithms - Edition 23,SWAYAM,SEO & Content Writer,"React,Angular,Vue.js",16,Advanced
+443,React - The Complete Guide - Edition 23,NPTEL,Journalist & Media Reporter,"Git,Communication,Leadership",10,Intermediate
+444,Machine Learning Specialization - Edition 23,Coursera,3D Animator & Visual Artist,"3D Modeling,Communication,Creative Writing",17,Intermediate
+445,Deep Learning and Neural Networks - Edition 23,Udemy,Patent Attorney,"Communication,Technical Writing,Time Management",13,Advanced
+446,AWS Certified Solutions Architect - Edition 23,Simplilearn,Criminal Defense Lawyer,"Kotlin,Public Speaking,Negotiation",14,Advanced
+447,UI/UX Design Masterclass - Edition 23,Udemy,High School Physics Teacher,"Public Speaking,Problem Solving,Negotiation",11,Advanced
+448,Introduction to Financial Accounting - Edition 23,Udemy,College Professor (Computer Science),"Problem Solving,Teamwork,Research Methodology",10,Intermediate
+449,Product Management Fundamental Course - Edition 23,Coursera,Clinical Psychologist,"Communication,Public Speaking,Problem Solving",7,Advanced
+450,Cybersecurity Threat Detection and Mitigation - Edition 23,Simplilearn,Clinical Research Associate,"GraphQL,Technical Writing,Teamwork",9,Advanced
+451,Academic Writing & Research Methodology - Edition 23,Udemy,Pharmacist,"Java,Problem Solving,Critical Thinking",8,Beginner
+452,SQL Masterclass: SQL for Analytics - Edition 23,NPTEL,General Medical Practitioner,"Communication,Public Speaking,Technical Writing",8,Intermediate
+453,Full-Stack Web Development Bootcamp - Edition 23,Simplilearn,Agricultural Officer,"Go,Economics,Public Speaking",27,Beginner
+454,Google Project Management Certificate - Edition 23,Google Career Certificates,Food Technologist,"Communication,Leadership,Technical Writing",14,Advanced
+455,UPSC Preparation: Indian Polity and History - Edition 23,NPTEL,Environmental Consultant,"Go,Product Management,Business Analysis",43,Advanced
+456,Corporate Law & Contract Drafting - Edition 23,NPTEL,Social Worker (NGO Manager),"Communication,Public Speaking,Problem Solving",13,Beginner
+457,Embedded C Programming for IoT Devices - Edition 23,Coursera,Public Policy Analyst,"Go,AWS,Economics",12,Beginner
+458,Statistical Inference for Researchers - Edition 23,Great Learning,Data Scientist,"Machine Learning,Statistics,Leadership",12,Intermediate
+459,Business Strategy & Finance for Founders - Edition 23,edX,Cybersecurity Consultant,"Product Management,Business Analysis,Financial Accounting",9,Beginner
+460,Technical Writing for Software Engineers - Edition 23,NPTEL,Enterprise Risk Consultant,"Product Management,Business Analysis,Financial Accounting",5,Intermediate
+461,Python for Data Science and AI - Edition 24,Great Learning,User Experience Researcher,"Communication,Technical Writing,Time Management",8,Intermediate
+462,Mastering Data Structures & Algorithms - Edition 24,Coursera,Solutions Architect,"Product Management,Business Analysis,Financial Accounting",15,Advanced
+463,React - The Complete Guide - Edition 24,edX,Robotics Software Engineer,"Computer Vision,Leadership,Time Management",12,Advanced
+464,Machine Learning Specialization - Edition 24,Coursera,Biomedical Instrumentation Engineer,"Data Structures,Algorithms,Machine Learning",17,Beginner
+465,Deep Learning and Neural Networks - Edition 24,edX,Actuarial Analyst,"Statistics,Problem Solving,Time Management",15,Beginner
+466,AWS Certified Solutions Architect - Edition 24,NPTEL,Financial Consultant,"Data Analytics,Economics,Problem Solving",10,Advanced
+467,UI/UX Design Masterclass - Edition 24,Google Career Certificates,Supply Chain Analyst,"Product Management,Business Analysis,Financial Accounting",10,Intermediate
+468,Introduction to Financial Accounting - Edition 24,edX,Brand Strategist,"Marketing,Communication,Public Speaking",7,Advanced
+469,Product Management Fundamental Course - Edition 24,Google Career Certificates,Media Planner,"Data Structures,Algorithms,Machine Learning",7,Beginner
+470,Cybersecurity Threat Detection and Mitigation - Edition 24,Great Learning,Technical Product Owner,"React,Angular,Vue.js",8,Intermediate
+471,Academic Writing & Research Methodology - Edition 24,edX,Creative Director,"Graphic Design,Communication,Leadership",7,Beginner
+472,SQL Masterclass: SQL for Analytics - Edition 24,edX,IP Litigation Specialist,"Leadership,Public Speaking,Time Management",10,Advanced
+473,Full-Stack Web Development Bootcamp - Edition 24,SWAYAM,Public Prosecutor,"Java,Creative Writing,Negotiation",22,Intermediate
+474,Google Project Management Certificate - Edition 24,NPTEL,Special Education Teacher,"Communication,Leadership,Problem Solving",11,Intermediate
+475,UPSC Preparation: Indian Polity and History - Edition 24,Simplilearn,Data Visualization Specialist,"SQL,Statistics,SQL",44,Intermediate
+476,Corporate Law & Contract Drafting - Edition 24,edX,SRE Engineer,"Data Structures,Algorithms,Machine Learning",16,Intermediate
+477,Embedded C Programming for IoT Devices - Edition 24,Udemy,VLSI Verification Engineer,"C++,Git,Leadership",12,Beginner
+478,Statistical Inference for Researchers - Edition 24,Coursera,Embedded Firmware Developer,"C++,Public Speaking,Creative Writing",7,Intermediate
+479,Business Strategy & Finance for Founders - Edition 24,edX,IoT Systems Architect,"Leadership,Creative Writing,Critical Thinking",10,Advanced
+480,Technical Writing for Software Engineers - Edition 24,NPTEL,Aerodynamics Analyst,"Technical Writing,Creative Writing,Time Management",8,Advanced
+481,Python for Data Science and AI - Edition 25,Udemy,Structural Design Engineer,"Deep Learning,Creative Writing,Academic Writing",9,Advanced
+482,Mastering Data Structures & Algorithms - Edition 25,Udemy,Chemical Process Safety Specialist,"Data Structures,React,REST APIs",13,Advanced
+483,React - The Complete Guide - Edition 25,Udemy,Quantitative Finance Analyst,"Go,Algorithms,Statistics",11,Intermediate
+484,Machine Learning Specialization - Edition 25,SWAYAM,Arbitrage Trader,"Economics,Leadership,Technical Writing",17,Intermediate
+485,Deep Learning and Neural Networks - Edition 25,NPTEL,Corporate Treasury Analyst,"Economics,Technical Writing,Time Management",17,Advanced
+486,AWS Certified Solutions Architect - Edition 25,SWAYAM,HR Recruitment Specialist,"Product Management,Business Analysis,Financial Accounting",15,Intermediate
+487,UI/UX Design Masterclass - Edition 25,Udemy,Digital Marketing Specialist,"Data Structures,Algorithms,Machine Learning",10,Beginner
+488,Introduction to Financial Accounting - Edition 25,Simplilearn,News Editor,"Communication,Technical Writing,Creative Writing",9,Intermediate
+489,Product Management Fundamental Course - Edition 25,Udemy,Illustrator & Concept Artist,"Graphic Design,Creative Writing,Critical Thinking",4,Advanced
+490,Cybersecurity Threat Detection and Mitigation - Edition 25,Great Learning,Regulatory Affairs Specialist,"Go,Creative Writing,Problem Solving",13,Intermediate
+491,Academic Writing & Research Methodology - Edition 25,edX,Bioinformatics Analyst,"Go,Algorithms,Statistics",7,Advanced
+492,SQL Masterclass: SQL for Analytics - Edition 25,Coursera,Organic Chemist,"Django,Business Strategy,Chemistry Lab",7,Advanced
+493,Full-Stack Web Development Bootcamp - Edition 25,Google Career Certificates,Academic Counsellor,"Communication,Technical Writing,Creative Writing",23,Beginner
+494,Google Project Management Certificate - Edition 25,edX,Disaster Relief Coordinator,"Data Structures,Algorithms,Machine Learning",11,Advanced
+495,UPSC Preparation: Indian Polity and History - Edition 25,NPTEL,Urban Policy Researcher,"Economics,Communication,Public Speaking",39,Beginner
+496,Corporate Law & Contract Drafting - Edition 25,Coursera,Corporate Social Responsibility Lead,"Go,Product Management,Business Analysis",14,Intermediate
+497,Embedded C Programming for IoT Devices - Edition 25,NPTEL,System Security Architect,"C++,Communication,Problem Solving",11,Advanced
+498,Statistical Inference for Researchers - Edition 25,Google Career Certificates,E-commerce Category Manager,"Product Management,Business Analysis,Financial Accounting",7,Beginner
+499,Business Strategy & Finance for Founders - Edition 25,Great Learning,Speech & Language Therapist,"Data Structures,Algorithms,Machine Learning",6,Beginner
+500,Technical Writing for Software Engineers - Edition 25,SWAYAM,Horticulturist,"Leadership,Creative Writing,Problem Solving",2,Intermediate
