@@ -8,6 +8,10 @@ const prisma = new PrismaClient();
 
 function parseCSV(filePath: string): any[] {
   console.log(`Parsing CSV: ${filePath}`);
+  if (!fs.existsSync(filePath)) {
+    console.warn(`CSV file not found at ${filePath}, skipping...`);
+    return [];
+  }
   const content = fs.readFileSync(filePath, 'utf-8');
   const lines = content.split(/\r?\n/);
   if (lines.length === 0) return [];
@@ -83,7 +87,16 @@ async function main() {
   await prisma.adminProfile.deleteMany({});
   await prisma.user.deleteMany({});
 
-  const datasetsDir = path.join(__dirname, '../../datasets');
+  let datasetsDir = path.join(__dirname, '../../datasets');
+  if (!fs.existsSync(datasetsDir)) {
+    datasetsDir = path.join(__dirname, '../datasets');
+  }
+  if (!fs.existsSync(datasetsDir)) {
+    datasetsDir = path.join(process.cwd(), 'datasets');
+  }
+  if (!fs.existsSync(datasetsDir)) {
+    datasetsDir = path.join(process.cwd(), '../datasets');
+  }
 
   // 1. Seed Skills
   console.log('Seeding Skills...');
