@@ -55,12 +55,10 @@ export const getOpportunities = async (req: Request, res: Response) => {
       filter.location = { equals: 'Remote', mode: 'insensitive' };
     }
 
-    if (status) {
-      filter.status = status as string;
-    } else {
-      // Default to active opportunities unless specified otherwise
-      filter.status = { in: ['ACTIVE', 'CLOSING_SOON', 'UPCOMING'] };
-    }
+      // Filter by status if requested, otherwise show all non-expired opportunities
+      if (status) {
+        filter.status = status as string;
+      }
 
     const [opportunities, total] = await prisma.$transaction([
       prisma.opportunity.findMany({
