@@ -3,19 +3,11 @@ import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import { useAuthStore } from '@/store/authStore';
 
-/**
- * AppShell wraps every authenticated page.
- * Structure:
- *   <fixed Navbar h-16>
- *   <div flex row below navbar>
- *     <sticky Sidebar>
- *     <scrollable main content>
- */
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const { isAuthenticated } = useAuthStore();
 
   return (
-    <div style={{ minHeight: '100vh', background: '#050816' }}>
+    <div style={{ minHeight: '100vh', background: '#f8fafc', color: '#0f172a' }}>
       {/* Fixed top nav */}
       <Navbar />
 
@@ -33,7 +25,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           flex: 1,
           minWidth: 0,          // prevent flex overflow
           overflowX: 'hidden',
-          padding: '24px',
+          padding: '24px 16px',
         }}>
           {children}
         </main>

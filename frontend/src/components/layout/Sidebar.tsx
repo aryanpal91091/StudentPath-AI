@@ -5,7 +5,7 @@ import { useAuthStore } from '@/store/authStore';
 import {
   LayoutDashboard, Compass, Map, Users, BookOpen,
   GraduationCap, Settings, CreditCard, FileText,
-  BarChart3, ShieldCheck, Star, ChevronLeft, ChevronRight,
+  BarChart3, Star, ChevronLeft, ChevronRight,
   LogOut
 } from 'lucide-react';
 import { useState } from 'react';
@@ -46,42 +46,41 @@ export default function Sidebar() {
   const profile = user?.studentProfile || user?.counsellorProfile || user?.adminProfile;
   const name = (profile as any)?.name || user?.email || 'User';
   const initial = name[0]?.toUpperCase() || '?';
-  const w = collapsed ? 64 : 240; // px widths
+  const w = collapsed ? 64 : 240;
 
   return (
     <>
-      {/* Sidebar itself — static in flow, not fixed overlay */}
+      {/* Sidebar on Desktop / Tablet (hidden on small mobile screens to rely on mobile Navbar menu) */}
       <aside
+        className="hidden md:flex flex-col"
         style={{
           width: w,
           minWidth: w,
-          background: 'rgba(5, 8, 22, 0.97)',
-          backdropFilter: 'blur(24px)',
-          borderRight: '1px solid rgba(99,102,241,0.12)',
+          background: '#ffffff',
+          borderRight: '1px solid #e2e8f0',
           position: 'sticky',
-          top: 64,  /* height of Navbar */
+          top: 64,
           height: 'calc(100vh - 64px)',
           overflowY: 'auto',
-          transition: 'width 0.25s ease, min-width 0.25s ease',
+          transition: 'width 0.2s ease, min-width 0.2s ease',
           flexShrink: 0,
-          display: 'flex',
-          flexDirection: 'column',
         }}
       >
         {/* Profile */}
         {!collapsed && (
-          <div style={{ padding: '16px', borderBottom: '1px solid rgba(99,102,241,0.1)' }}>
+          <div style={{ padding: '16px', borderBottom: '1px solid #f1f5f9' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
               <div style={{
                 width: 36, height: 36, borderRadius: '50%',
-                background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
+                background: 'linear-gradient(135deg, #4f46e5, #7c3aed)',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontWeight: 700, color: '#fff', fontSize: 14, flexShrink: 0,
+                boxShadow: '0 2px 4px rgba(79, 70, 229, 0.2)'
               }}>
                 {initial}
               </div>
               <div style={{ minWidth: 0 }}>
-                <p style={{ fontSize: 13, fontWeight: 600, color: '#fff', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 140 }}>{name}</p>
+                <p style={{ fontSize: 13, fontWeight: 600, color: '#0f172a', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', maxWidth: 140 }}>{name}</p>
                 <p style={{ fontSize: 11, color: '#64748b', textTransform: 'capitalize' }}>{user?.role?.toLowerCase()}</p>
               </div>
             </div>
@@ -101,20 +100,20 @@ export default function Sidebar() {
                 borderRadius: 10,
                 textDecoration: 'none',
                 fontSize: 13,
-                fontWeight: active ? 600 : 400,
-                color: active ? '#a5b4fc' : '#94a3b8',
-                background: active ? 'rgba(99,102,241,0.15)' : 'transparent',
-                border: `1px solid ${active ? 'rgba(99,102,241,0.3)' : 'transparent'}`,
-                transition: 'all 0.15s',
+                fontWeight: active ? 600 : 500,
+                color: active ? '#4338ca' : '#475569',
+                background: active ? '#eef2ff' : 'transparent',
+                borderLeft: active ? '3px solid #4f46e5' : '3px solid transparent',
+                transition: 'all 0.15s ease',
                 whiteSpace: 'nowrap',
                 overflow: 'hidden',
               }}>
-                <link.icon size={17} style={{ flexShrink: 0, color: active ? '#818cf8' : '#64748b' }} />
+                <link.icon size={17} style={{ flexShrink: 0, color: active ? '#4f46e5' : '#64748b' }} />
                 {!collapsed && <span style={{ flex: 1 }}>{link.label}</span>}
                 {!collapsed && (link as any).premium && user?.role === 'STUDENT' && !user?.studentProfile?.premiumStatus && (
                   <span style={{
-                    fontSize: 9, padding: '2px 5px', borderRadius: 99,
-                    background: 'linear-gradient(135deg, #f59e0b, #f97316)',
+                    fontSize: 9, padding: '2px 6px', borderRadius: 99,
+                    background: 'linear-gradient(135deg, #f59e0b, #ea580c)',
                     color: '#fff', fontWeight: 800, letterSpacing: '0.05em',
                   }}>PRO</span>
                 )}
@@ -124,12 +123,12 @@ export default function Sidebar() {
         </nav>
 
         {/* Logout + Collapse */}
-        <div style={{ padding: '8px', borderTop: '1px solid rgba(99,102,241,0.1)', display: 'flex', flexDirection: 'column', gap: 4 }}>
+        <div style={{ padding: '12px 8px', borderTop: '1px solid #f1f5f9', display: 'flex', flexDirection: 'column', gap: 4 }}>
           <button onClick={logout} style={{
             display: 'flex', alignItems: 'center', justifyContent: collapsed ? 'center' : 'flex-start',
             gap: 10, width: '100%', padding: '8px 12px', borderRadius: 10,
             background: 'transparent', border: 'none', cursor: 'pointer',
-            color: '#ef4444', fontSize: 13, fontWeight: 500,
+            color: '#e11d48', fontSize: 13, fontWeight: 500,
           }}>
             <LogOut size={15} />
             {!collapsed && <span>Logout</span>}
@@ -138,7 +137,7 @@ export default function Sidebar() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             width: '100%', padding: '6px', borderRadius: 10,
             background: 'transparent', border: 'none', cursor: 'pointer',
-            color: '#475569', fontSize: 11,
+            color: '#64748b', fontSize: 11,
           }}>
             {collapsed ? <ChevronRight size={15} /> : <><ChevronLeft size={14} /><span style={{ marginLeft: 6 }}>Collapse</span></>}
           </button>
