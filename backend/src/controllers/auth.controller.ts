@@ -12,8 +12,10 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
   try {
     const { email, password, role, name, extraData } = req.body;
 
-    if (!email || !password || !role || !name) {
-      return res.status(400).json({ error: 'Email, password, role, and name are required' });
+    const userName = name || email.split('@')[0];
+
+    if (!email || !password || !role) {
+      return res.status(400).json({ error: 'Email, password, and role are required' });
     }
 
     if (!['STUDENT', 'COUNSELLOR', 'ADMIN'].includes(role)) {
@@ -45,7 +47,7 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
         profile = await tx.studentProfile.create({
           data: {
             userId: user.id,
-            name,
+            name: userName,
             premiumStatus: false,
             careerReadinessScore: 10.0 // Base score for registration
           }
@@ -55,7 +57,7 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
         profile = await tx.counsellorProfile.create({
           data: {
             userId: user.id,
-            name,
+            name: userName,
             qualification: qualification || 'Not Specified',
             experience: experience || 'Not Specified',
             specialization: specialization || 'General Guidance',
@@ -69,7 +71,7 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
         profile = await tx.adminProfile.create({
           data: {
             userId: user.id,
-            name
+            name: userName
           }
         });
       }
@@ -91,7 +93,7 @@ export const register = async (req: AuthenticatedRequest, res: Response) => {
         id: result.user.id,
         email: result.user.email,
         role: result.user.role,
-        name
+        name: userName
       }
     });
 

@@ -31,7 +31,7 @@ api.interceptors.request.use((config) => {
 export const authAPI = {
   login: (data: { email: string; password: string }) =>
     api.post('/auth/login', data),
-  register: (data: { email: string; password: string; role: string }) =>
+  register: (data: { email: string; password: string; role: string; name?: string }) =>
     api.post('/auth/register', data),
   onboard: (data: any) =>
     api.post('/auth/onboard', data),

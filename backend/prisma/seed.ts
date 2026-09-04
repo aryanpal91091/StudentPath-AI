@@ -201,148 +201,123 @@ async function main() {
   // 2. Seed Skills
   console.log('Seeding Skills...');
   const skillsData = parseCSV(path.join(datasetsDir, 'skills.csv'));
-  for (const s of skillsData) {
-    await prisma.skill.upsert({
-      where: { name: s.skill },
-      update: { category: s.category },
-      create: {
-        id: parseInt(s.id),
-        name: s.skill,
-        category: s.category
-      }
-    }).catch(() => {});
-  }
+  const validSkills = skillsData
+    .filter(s => s.id && s.skill)
+    .map(s => ({
+      id: parseInt(s.id),
+      name: s.skill,
+      category: s.category || 'General'
+    }));
+  await prisma.skill.createMany({ data: validSkills, skipDuplicates: true });
 
   // 3. Seed Careers
   console.log('Seeding Careers...');
   const careersData = parseCSV(path.join(datasetsDir, 'careers.csv'));
-  for (const c of careersData) {
-    await prisma.career.upsert({
-      where: { id: parseInt(c.id) },
-      update: {},
-      create: {
-        id: parseInt(c.id),
-        careerKey: c.career,
-        title: c.title,
-        description: c.description,
-        education: c.education,
-        interests: c.interests,
-        subjects: c.subjects,
-        careerType: c.career_type
-      }
-    }).catch(() => {});
-  }
+  const validCareers = careersData
+    .filter(c => c.id && c.title)
+    .map(c => ({
+      id: parseInt(c.id),
+      careerKey: c.career || `career_${c.id}`,
+      title: c.title,
+      description: c.description || '',
+      education: c.education || '',
+      interests: c.interests || '',
+      subjects: c.subjects || '',
+      careerType: c.career_type || 'General'
+    }));
+  await prisma.career.createMany({ data: validCareers, skipDuplicates: true });
 
   // 4. Seed Courses
   console.log('Seeding Courses...');
   const coursesData = parseCSV(path.join(datasetsDir, 'courses.csv')).slice(0, 100);
-  for (const c of coursesData) {
-    await prisma.course.upsert({
-      where: { id: parseInt(c.id) },
-      update: {},
-      create: {
-        id: parseInt(c.id),
-        title: c.title,
-        provider: c.provider,
-        career: c.career,
-        skills: c.skills,
-        duration: parseInt(c.duration) || 8,
-        level: c.level
-      }
-    }).catch(() => {});
-  }
+  const validCourses = coursesData
+    .filter(c => c.id && c.title)
+    .map(c => ({
+      id: parseInt(c.id),
+      title: c.title,
+      provider: c.provider || '',
+      career: c.career || '',
+      skills: c.skills || '',
+      duration: parseInt(c.duration) || 8,
+      level: c.level || 'Intermediate'
+    }));
+  await prisma.course.createMany({ data: validCourses, skipDuplicates: true });
 
   // 5. Seed Exams
   console.log('Seeding Exams...');
   const examsData = parseCSV(path.join(datasetsDir, 'exams.csv'));
-  for (const e of examsData) {
-    const startStr = e.application_start;
-    const deadlineStr = e.deadline;
-    await prisma.exam.upsert({
-      where: { id: parseInt(e.id) },
-      update: {},
-      create: {
+  const validExams = examsData
+    .filter(e => e.id && e.name)
+    .map(e => {
+      const startStr = e.application_start;
+      const deadlineStr = e.deadline;
+      return {
         id: parseInt(e.id),
         name: e.name,
-        conductingBody: e.conducting_body,
-        eligibility: e.eligibility,
-        education: e.education,
-        branches: e.branches,
+        conductingBody: e.conducting_body || '',
+        eligibility: e.eligibility || '',
+        education: e.education || '',
+        branches: e.branches || '',
         applicationStart: startStr ? new Date(startStr.split('-').reverse().join('-')) : null,
         deadline: deadlineStr ? new Date(deadlineStr.split('-').reverse().join('-')) : null,
-        officialUrl: e.official_url
-      }
+        officialUrl: e.official_url || null
+      };
     });
-  }
+  await prisma.exam.createMany({ data: validExams, skipDuplicates: true });
 
   // 6. Seed Scholarships
   console.log('Seeding Scholarships...');
   const scholarshipsData = parseCSV(path.join(datasetsDir, 'scholarships.csv'));
-  for (const s of scholarshipsData) {
-    const deadlineStr = s.deadline;
-    await prisma.scholarship.upsert({
-      where: { id: parseInt(s.id) },
-      update: {},
-      create: {
+  const validScholarships = scholarshipsData
+    .filter(s => s.id && s.name)
+    .map(s => {
+      const deadlineStr = s.deadline;
+      return {
         id: parseInt(s.id),
         name: s.name,
-        provider: s.provider,
-        eligibility: s.eligibility,
-        education: s.education,
-        category: s.category,
-        amount: s.amount,
+        provider: s.provider || '',
+        eligibility: s.eligibility || '',
+        education: s.education || '',
+        category: s.category || '',
+        amount: s.amount || '',
         deadline: deadlineStr ? new Date(deadlineStr.split('-').reverse().join('-')) : null,
-        officialUrl: s.official_url
-      }
+        officialUrl: s.official_url || null
+      };
     });
-  }
+  await prisma.scholarship.createMany({ data: validScholarships, skipDuplicates: true });
 
   // 7. Seed Opportunities
-  console.log('Seeding Opportunities (limited to 300)...');
+  console.log('Seeding Opportunities (300 items)...');
   const opportunitiesData = parseCSV(path.join(datasetsDir, 'opportunities.csv'));
   const slicedOpps = opportunitiesData.slice(0, 300);
-  for (const o of slicedOpps) {
-    const deadlineStr = o.deadline;
-    const opp = await prisma.opportunity.upsert({
-      where: { id: parseInt(o.id) },
-      update: {},
-      create: {
+  const validOpps = slicedOpps
+    .filter(o => o.id && o.title)
+    .map(o => {
+      const deadlineStr = o.deadline;
+      return {
         id: parseInt(o.id),
         title: o.title,
-        organization: o.organization,
-        category: o.category,
-        description: o.description,
-        education: o.education,
+        organization: o.organization || 'Various',
+        category: o.category || 'Internship',
+        description: o.description || '',
+        education: o.education || 'All Streams',
         minYear: parseInt(o.min_year) || 1,
         maxYear: parseInt(o.max_year) || 5,
-        branch: o.branch,
-        skills: o.skills,
-        location: o.location,
-        mode: o.mode,
+        branch: o.branch || 'All Branches',
+        skills: o.skills || '',
+        location: o.location || 'Remote',
+        mode: o.mode || 'ONLINE',
         deadline: deadlineStr ? new Date(deadlineStr) : null,
-        prize: o.prize,
-        stipend: o.stipend,
+        prize: o.prize || null,
+        stipend: o.stipend || null,
         fee: parseFloat(o.fee) || 0.0,
-        url: o.url,
-        source: o.source,
-        lastVerified: new Date(o.last_verified),
-        status: o.status
-      }
+        url: o.url || null,
+        source: o.source || 'Official',
+        lastVerified: o.last_verified ? new Date(o.last_verified) : new Date(),
+        status: o.status || 'ACTIVE'
+      };
     });
-    
-    // Link opportunity to skills
-    if (o.skills) {
-      const skillNames = o.skills.split(',').map((s: string) => s.trim());
-      for (const sn of skillNames) {
-        const skillRecord = await prisma.skill.findUnique({ where: { name: sn } });
-        if (skillRecord) {
-          await prisma.opportunitySkill.create({
-            data: { opportunityId: opp.id, skillId: skillRecord.id }
-          }).catch(() => {}); // ignore duplicates
-        }
-      }
-    }
-  }
+  await prisma.opportunity.createMany({ data: validOpps, skipDuplicates: true });
 
   console.log('\n✅ Seed complete! Default accounts:');
   console.log('   Admin:     admin@studentpath.ai     / Admin@123');

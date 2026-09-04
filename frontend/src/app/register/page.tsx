@@ -12,7 +12,7 @@ const roles = [
 
 export default function RegisterPage() {
   const router = useRouter();
-  const [form, setForm] = useState({ email: '', password: '', confirmPassword: '', role: 'STUDENT' });
+  const [form, setForm] = useState({ name: '', email: '', password: '', confirmPassword: '', role: 'STUDENT' });
   const [showPwd, setShowPwd] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -24,7 +24,7 @@ export default function RegisterPage() {
     if (form.password.length < 8) { setError('Password must be at least 8 characters'); return; }
     setLoading(true);
     try {
-      await authAPI.register({ email: form.email, password: form.password, role: form.role });
+      await authAPI.register({ name: form.name || form.email.split('@')[0], email: form.email, password: form.password, role: form.role });
       router.push(form.role === 'STUDENT' ? '/onboarding' : '/login?registered=true');
     } catch (err: any) {
       setError(err?.response?.data?.error || 'Registration failed. Please try again.');
@@ -67,6 +67,16 @@ export default function RegisterPage() {
                     <div className="text-xs text-slate-500">{r.desc}</div>
                   </button>
                 ))}
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-slate-300 mb-2">Full Name</label>
+              <div className="relative">
+                <User size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
+                <input type="text" required className="input-field pl-10"
+                  placeholder="John Doe"
+                  value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
               </div>
             </div>
 
