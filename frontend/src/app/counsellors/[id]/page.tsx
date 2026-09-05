@@ -3,7 +3,6 @@ import { useQuery } from '@tanstack/react-query';
 import { useAuthStore } from '@/store/authStore';
 import { useRouter, useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import AppShell from '@/components/layout/AppShell';
 import { counsellorAPI } from '@/lib/api';
 import { Star, CheckCircle, Globe, Briefcase, Clock, ArrowLeft, Calendar, CreditCard, Loader2, Video, QrCode, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
@@ -55,156 +54,152 @@ export default function CounsellorDetailPage() {
   minDate.setDate(minDate.getDate() + 1);
 
   if (isLoading) return (
-    <AppShell>
-      <div className="flex items-center justify-center min-h-[60vh]">
-        <Loader2 size={36} className="animate-spin text-indigo-600" />
-      </div>
-    </AppShell>
+    <div className="flex items-center justify-center min-h-[60vh]">
+      <Loader2 size={36} className="animate-spin text-indigo-600" />
+    </div>
   );
 
   return (
-    <AppShell>
-      <div className="max-w-5xl mx-auto space-y-6">
-        <Link href="/counsellors" className="inline-flex items-center gap-2 text-slate-600 hover:text-indigo-600 text-xs sm:text-sm font-semibold transition-colors">
-          <ArrowLeft size={16} /> Back to All Counsellors
-        </Link>
+    <div className="max-w-5xl mx-auto space-y-6">
+      <Link href="/counsellors" className="inline-flex items-center gap-2 text-slate-600 hover:text-indigo-600 text-xs sm:text-sm font-semibold transition-colors">
+        <ArrowLeft size={16} /> Back to All Counsellors
+      </Link>
 
-        <div className="grid lg:grid-cols-3 gap-6">
-          {/* Profile Card */}
-          <div className="lg:col-span-2 space-y-5">
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
-              <div className="flex items-start gap-4 sm:gap-5 mb-6">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl font-black text-white flex-shrink-0 shadow-md"
-                  style={{ background: 'linear-gradient(135deg, #4f46e5, #7c3aed)' }}>
-                  {counsellor?.name?.[0]}
+      <div className="grid lg:grid-cols-3 gap-6">
+        {/* Profile Card */}
+        <div className="lg:col-span-2 space-y-5">
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+            <div className="flex items-start gap-4 sm:gap-5 mb-6">
+              <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl flex items-center justify-center text-2xl sm:text-3xl font-black text-white flex-shrink-0 shadow-md"
+                style={{ background: 'linear-gradient(135deg, #4f46e5, #7c3aed)' }}>
+                {counsellor?.name?.[0]}
+              </div>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap mb-1">
+                  <h1 className="text-xl sm:text-2xl font-black text-slate-900">{counsellor?.name}</h1>
+                  {counsellor?.isVerified && (
+                    <span className="inline-flex items-center gap-1 text-xs text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 font-semibold">
+                      <CheckCircle size={13} className="text-emerald-600" /> Verified Expert
+                    </span>
+                  )}
                 </div>
-                <div>
-                  <div className="flex items-center gap-2 flex-wrap mb-1">
-                    <h1 className="text-xl sm:text-2xl font-black text-slate-900">{counsellor?.name}</h1>
-                    {counsellor?.isVerified && (
-                      <span className="inline-flex items-center gap-1 text-xs text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full border border-emerald-200 font-semibold">
-                        <CheckCircle size={13} className="text-emerald-600" /> Verified Expert
-                      </span>
-                    )}
+                <p className="text-slate-600 text-xs sm:text-sm font-medium">{counsellor?.qualification}</p>
+                <div className="flex items-center gap-3 mt-2.5">
+                  <div className="flex items-center gap-1 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-lg">
+                    <Star size={14} className="fill-amber-400 text-amber-500" />
+                    <span className="text-xs font-bold text-amber-800">{counsellor?.rating?.toFixed(1)}</span>
+                    <span className="text-[11px] text-amber-600 font-medium">Rating</span>
                   </div>
-                  <p className="text-slate-600 text-xs sm:text-sm font-medium">{counsellor?.qualification}</p>
-                  <div className="flex items-center gap-3 mt-2.5">
-                    <div className="flex items-center gap-1 bg-amber-50 border border-amber-200 px-2.5 py-1 rounded-lg">
-                      <Star size={14} className="fill-amber-400 text-amber-500" />
-                      <span className="text-xs font-bold text-amber-800">{counsellor?.rating?.toFixed(1)}</span>
-                      <span className="text-[11px] text-amber-600 font-medium">Rating</span>
-                    </div>
-                    <span className="text-slate-300">•</span>
-                    <span className="text-xs text-slate-600 font-medium">{counsellor?.experience} Experience</span>
-                  </div>
+                  <span className="text-slate-300">•</span>
+                  <span className="text-xs text-slate-600 font-medium">{counsellor?.experience} Experience</span>
                 </div>
               </div>
+            </div>
 
-              <div className="grid grid-cols-2 gap-3.5 mb-6">
-                {[
-                  { label: 'Specialization', value: counsellor?.specialization, icon: Briefcase, color: 'text-indigo-600' },
-                  { label: 'Languages', value: counsellor?.languages, icon: Globe, color: 'text-cyan-600' },
-                  { label: 'Availability', value: counsellor?.availability, icon: Clock, color: 'text-purple-600' },
-                  { label: 'Session Price', value: `₹${counsellor?.sessionPrice?.toLocaleString()}`, icon: CreditCard, color: 'text-emerald-600' },
-                ].map((info) => (
-                  <div key={info.label} className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
-                    <div className="flex items-center gap-1.5 text-xs text-slate-500 font-medium mb-1">
-                      <info.icon size={13} className={info.color} /> {info.label}
-                    </div>
-                    <div className="text-xs sm:text-sm text-slate-900 font-bold truncate">{info.value}</div>
+            <div className="grid grid-cols-2 gap-3.5 mb-6">
+              {[
+                { label: 'Specialization', value: counsellor?.specialization, icon: Briefcase, color: 'text-indigo-600' },
+                { label: 'Languages', value: counsellor?.languages, icon: Globe, color: 'text-cyan-600' },
+                { label: 'Availability', value: counsellor?.availability, icon: Clock, color: 'text-purple-600' },
+                { label: 'Session Price', value: `₹${counsellor?.sessionPrice?.toLocaleString()}`, icon: CreditCard, color: 'text-emerald-600' },
+              ].map((info) => (
+                <div key={info.label} className="p-3.5 rounded-xl bg-slate-50 border border-slate-200/80">
+                  <div className="flex items-center gap-1.5 text-xs text-slate-500 font-medium mb-1">
+                    <info.icon size={13} className={info.color} /> {info.label}
+                  </div>
+                  <div className="text-xs sm:text-sm text-slate-900 font-bold truncate">{info.value}</div>
+                </div>
+              ))}
+            </div>
+
+            <div>
+              <h2 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">What to expect</h2>
+              <div className="space-y-2.5">
+                {['45-minute 1-on-1 video session', 'Personalized career assessment report', 'Action plan & follow-up resources', 'Recording of the session (on request)'].map((f) => (
+                  <div key={f} className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-700 font-medium">
+                    <CheckCircle size={16} className="text-emerald-600 flex-shrink-0" />
+                    {f}
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Session format */}
+          <div className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm">
+            <h2 className="font-bold text-slate-900 mb-4 flex items-center gap-2 text-sm sm:text-base">
+              <Video size={18} className="text-indigo-600" /> Session Format
+            </h2>
+            <div className="grid grid-cols-3 gap-3">
+              {['Video Call', 'Screen Share', 'Chat Support'].map((f) => (
+                <div key={f} className="p-3 rounded-xl bg-indigo-50/60 border border-indigo-100 text-center">
+                  <div className="text-xs text-indigo-900 font-bold">{f}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Booking Card */}
+        <div className="space-y-4">
+          {booked ? (
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm">
+              <div className="text-5xl mb-3">🎉</div>
+              <h3 className="text-xl font-black text-slate-900 mb-2">Session Booked!</h3>
+              <p className="text-slate-600 text-xs sm:text-sm mb-5 font-medium">
+                Your 1-on-1 session with <strong className="text-slate-900">{counsellor?.name}</strong> is confirmed for <span className="text-indigo-600 font-bold">{selectedDate}</span> at <span className="text-indigo-600 font-bold">{selectedSlot}</span>.
+              </p>
+              <div className="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-800 font-semibold mb-5 flex items-center justify-center gap-2">
+                <CheckCircle size={15} className="text-emerald-600 flex-shrink-0" /> Confirmation saved to Dashboard
+              </div>
+              <Link href="/dashboard" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 text-sm shadow-sm transition-all">
+                Go to Dashboard
+              </Link>
+            </div>
+          ) : (
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-5">
+              <h2 className="font-bold text-slate-900 flex items-center gap-2 text-base">
+                <Calendar size={18} className="text-indigo-600" /> Book Expert Session
+              </h2>
+
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1.5">Select Date</label>
+                <input type="date" className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 font-semibold focus:outline-none focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-100 transition-all"
+                  min={minDate.toISOString().split('T')[0]}
+                  value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)} />
               </div>
 
               <div>
-                <h2 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3">What to expect</h2>
-                <div className="space-y-2.5">
-                  {['45-minute 1-on-1 video session', 'Personalized career assessment report', 'Action plan & follow-up resources', 'Recording of the session (on request)'].map((f) => (
-                    <div key={f} className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-700 font-medium">
-                      <CheckCircle size={16} className="text-emerald-600 flex-shrink-0" />
-                      {f}
-                    </div>
+                <label className="block text-xs font-semibold text-slate-700 mb-2">Select Time Slot</label>
+                <div className="grid grid-cols-2 gap-2">
+                  {timeSlots.map((slot) => (
+                    <button key={slot} onClick={() => setSelectedSlot(slot)}
+                      className={`py-2 px-2.5 rounded-xl text-xs font-bold border transition-all ${selectedSlot === slot
+                        ? 'border-indigo-600 bg-indigo-600 text-white shadow-sm'
+                        : 'border-slate-200 bg-slate-50 text-slate-700 hover:border-indigo-300 hover:bg-white'}`}>
+                      {slot}
+                    </button>
                   ))}
                 </div>
               </div>
+
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
+                <div className="flex justify-between text-xs sm:text-sm">
+                  <span className="text-slate-600 font-medium">Session Fee</span>
+                  <span className="text-slate-900 font-bold">₹{counsellor?.sessionPrice?.toLocaleString()}</span>
+                </div>
+                <div className="flex justify-between text-xs">
+                  <span className="text-slate-500 font-medium">Platform Fee</span>
+                  <span className="text-emerald-600 font-bold">₹0 Free</span>
+                </div>
+              </div>
+
+              <button onClick={handleBook} disabled={!selectedDate || !selectedSlot}
+                className="w-full bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 text-sm shadow-md transition-all">
+                <CreditCard size={18} /> Proceed to Payment
+              </button>
             </div>
-
-            {/* Session format */}
-            <div className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-6 shadow-sm">
-              <h2 className="font-bold text-slate-900 mb-4 flex items-center gap-2 text-sm sm:text-base">
-                <Video size={18} className="text-indigo-600" /> Session Format
-              </h2>
-              <div className="grid grid-cols-3 gap-3">
-                {['Video Call', 'Screen Share', 'Chat Support'].map((f) => (
-                  <div key={f} className="p-3 rounded-xl bg-indigo-50/60 border border-indigo-100 text-center">
-                    <div className="text-xs text-indigo-900 font-bold">{f}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          {/* Booking Card */}
-          <div className="space-y-4">
-            {booked ? (
-              <div className="bg-white border border-slate-200 rounded-2xl p-6 text-center shadow-sm">
-                <div className="text-5xl mb-3">🎉</div>
-                <h3 className="text-xl font-black text-slate-900 mb-2">Session Booked!</h3>
-                <p className="text-slate-600 text-xs sm:text-sm mb-5 font-medium">
-                  Your 1-on-1 session with <strong className="text-slate-900">{counsellor?.name}</strong> is confirmed for <span className="text-indigo-600 font-bold">{selectedDate}</span> at <span className="text-indigo-600 font-bold">{selectedSlot}</span>.
-                </p>
-                <div className="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 text-xs text-emerald-800 font-semibold mb-5 flex items-center justify-center gap-2">
-                  <CheckCircle size={15} className="text-emerald-600 flex-shrink-0" /> Confirmation saved to Dashboard
-                </div>
-                <Link href="/dashboard" className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-4 rounded-xl flex items-center justify-center gap-2 text-sm shadow-sm transition-all">
-                  Go to Dashboard
-                </Link>
-              </div>
-            ) : (
-              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm space-y-5">
-                <h2 className="font-bold text-slate-900 flex items-center gap-2 text-base">
-                  <Calendar size={18} className="text-indigo-600" /> Book Expert Session
-                </h2>
-
-                <div>
-                  <label className="block text-xs font-semibold text-slate-700 mb-1.5">Select Date</label>
-                  <input type="date" className="w-full bg-slate-50 border border-slate-300 rounded-xl px-3.5 py-2.5 text-xs sm:text-sm text-slate-900 font-semibold focus:outline-none focus:border-indigo-600 focus:bg-white focus:ring-2 focus:ring-indigo-100 transition-all"
-                    min={minDate.toISOString().split('T')[0]}
-                    value={selectedDate} onChange={(e) => setSelectedDate(e.target.value)} />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold text-slate-700 mb-2">Select Time Slot</label>
-                  <div className="grid grid-cols-2 gap-2">
-                    {timeSlots.map((slot) => (
-                      <button key={slot} onClick={() => setSelectedSlot(slot)}
-                        className={`py-2 px-2.5 rounded-xl text-xs font-bold border transition-all ${selectedSlot === slot
-                          ? 'border-indigo-600 bg-indigo-600 text-white shadow-sm'
-                          : 'border-slate-200 bg-slate-50 text-slate-700 hover:border-indigo-300 hover:bg-white'}`}>
-                        {slot}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-1.5">
-                  <div className="flex justify-between text-xs sm:text-sm">
-                    <span className="text-slate-600 font-medium">Session Fee</span>
-                    <span className="text-slate-900 font-bold">₹{counsellor?.sessionPrice?.toLocaleString()}</span>
-                  </div>
-                  <div className="flex justify-between text-xs">
-                    <span className="text-slate-500 font-medium">Platform Fee</span>
-                    <span className="text-emerald-600 font-bold">₹0 Free</span>
-                  </div>
-                </div>
-
-                <button onClick={handleBook} disabled={!selectedDate || !selectedSlot}
-                  className="w-full bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold py-3.5 px-4 rounded-xl flex items-center justify-center gap-2 text-sm shadow-md transition-all">
-                  <CreditCard size={18} /> Proceed to Payment
-                </button>
-              </div>
-            )}
-          </div>
+          )}
         </div>
       </div>
 
@@ -279,7 +274,8 @@ export default function CounsellorDetailPage() {
           </div>
         </div>
       )}
-    </AppShell>
+    </div>
   );
 }
+
 
